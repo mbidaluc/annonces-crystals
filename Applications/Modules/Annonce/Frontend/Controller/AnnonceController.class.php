@@ -17,7 +17,6 @@ use Applications\Modules\Annonce\Form\AnnonceForm;
 
 class AnnonceController extends HelperBackController
 {
-        // Inserer votre code ici!
     protected $name = "Annonce";
     
     function executePositions(HttpRequest $request){
