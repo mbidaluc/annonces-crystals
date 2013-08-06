@@ -1,0 +1,5 @@
+<routes>
+    <route url="/newsletters.html" module="NewsLetter" action="newsletter" />
+    <route url="/newsletterssub.html" module="NewsLetter" action="subCategorie" />
+    <route url="/membres-delete-([0-9]+)\.html" module="NewsLetter" action="deleteMember" vars="id"/>
+</routes>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<routes xmlns:xi="http://www.w3.org/2001/XInclude">
+    <route url="/facebook/" module="Index" action="index" />
+    <route url="/facebook.php" module="Index" action="index" />
+    <route url="/index.html" module="Index" action="index" />
+    
+    <!-- import route du module contact -->
+    <xi:include href="../../Modules/Contact/Config/FContactRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: FContactRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/Annonce/Config/FAnnonceRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: FAnnonceRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+ 
+</routes>

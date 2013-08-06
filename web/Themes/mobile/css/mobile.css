@@ -1,0 +1,779 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Verdana;
+	vertical-align: baseline;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+:focus {
+	outline:0;
+}
+
+body {
+     /*background: url("../images/Backgrounds1.jpg") repeat;*/
+    background: none repeat scroll 0 0 #EDECE6;
+    color: #434343;
+    line-height: 1;
+    font-size: 12px;
+}
+
+ol, ul {
+	list-style:none;
+}
+ul {
+	padding-left: 0.1em;
+}
+u {
+text-decoration:none;
+background:#FFFF00;
+padding-right:2px;
+padding-left:2px;
+}
+h1{
+    
+}
+h2{
+    
+}
+h3{
+    
+}
+h4{
+    
+}
+#container,#inner-header{
+	width:100%;
+	text-align:left;
+	margin:0 auto;
+}
+
+#footer a {
+	color:#fff;
+	text-decoration:none;
+}
+.clear{
+    clear: both;
+}
+#footer ul li{
+    display: inline;
+}
+
+.error{
+    color: #FF0000;
+    padding-left: 206px;
+    text-align: left;
+}
+
+.liststyle{
+    width: 100%;
+}
+.liststyle  a, .liststyle td{
+    color: #636363;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+table th{
+    background: none repeat scroll 0 0 #DE6E28;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+table{
+    border-spacing: 0;
+    border-collapse:collapse;
+}
+#header{
+    background: url("../images/bg_header_annonces.png") repeat-x scroll left top #EAEAEA;
+    width: 100%;
+    margin: auto;
+    padding-bottom:  1.2%;
+}
+/*********************** gestion du logo***********************/
+#header #logo{
+    display: block;
+    float: left;
+    margin: 33px 3.73% auto auto;
+    width: 23.2%;
+}
+#logo img{
+    width: 100%;
+}
+/*********************** fin gestion du logo***********************/
+#header #center-zone{
+    float: left;
+    margin-top: 2%;
+    width: 24.09%; 
+}
+#header #flash-zone{
+    color: #009EDB;
+    font-family: arial;
+    font-size: 14px;
+}
+
+#header #right-zone{
+    float: left;
+    margin: 0.7% auto auto auto;
+    width: 30%;
+}
+#right-zone #right-zone-top, #right-zone #right-zone-bottom{
+    clear: both;
+    width: 100%;
+}
+/************************gestion social network***********************/
+#social_network{
+    float: left;
+    margin-left: 1%;
+    width: 35%;
+}
+#social_network li{
+    float: left;
+    width: 50%; 
+}
+#social_network li a{
+    display: block;
+}
+#social_network li#facebook a img{width: 91%;}
+#social_network li#twitter a img{width: 89%;}
+/**************************fin gestion social network***************/
+
+#header #menu{
+    clear: both;
+}
+#right-zone-bottom a{
+    display: inline-block;
+    float: left;
+    margin-left: 29%;
+    width: 30%;
+}
+#right-zone-bottom a img{width: 99%;}
+
+#right-zone-bottom #compteur_visit{
+    display: table-cell;
+    font-size: 12px;
+    height: 65px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 39%;  
+}
+#right-zone-bottom #compteur_visit li{
+    background: url("../images/bg_compteur.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    padding: 2.9%;
+}
+#right-zone-bottom #compteur_visit ul{
+    margin-bottom: 2%;
+}
+#right-zone-bottom #compteur_visit {
+	width: auto;
+	margin:auto;
+}
+#right-zone-bottom #compteur_visit img{
+	width: 10%;;
+}
+
+#header ul li{
+    display: inline;
+}
+/*****************gestion du menu top*************/
+
+/***********************gestion du menu************************/
+#wrapper-menu{
+    /*background: url('../images/bg_rpt_header.jpg') repeat-x scroll left top transparent;*/
+    background: url('../images/bg_menu_annonces.png') repeat-x scroll left top transparent;
+    width: 100%;
+    margin: auto;
+    clear: both;   
+}
+#menu{
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+#menu ul{
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+#menu ul li{
+    border-right: 1px solid #303030;
+    display: inline-block;  
+ /*   background: url("../images/border_menu.jpg") no-repeat top right; */
+    padding-left: 1em;
+    padding-right: 1em;
+    float: left;
+}
+#menu ul li:hover,#menu ul li:active,#menu ul li.active{
+    background: url("../images/hover_bg.jpg") repeat-x top left;
+
+}
+#menu ul li a:hover,#menu ul li a:active,#menu ul li.active a{
+    color: #000 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    background: url("../images/puce_menu.png") no-repeat bottom center;
+}
+#menu ul li.last{
+	border-right: none;
+}
+#menu ul li a{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+/*****************fin gestion du menu top*********/
+
+/**************** gestion contenu du site ********/
+#contenu{
+    background: url("../images/bg_rpt_content.png") repeat-x scroll left top #FFFFFF;
+    padding-top: 8.5px;
+}
+
+#center-page{
+    margin-top: 1.25%;
+    width: 100%;
+}
+#left-page, #right-page, #center-page{
+    float: left;
+}
+.block{
+    
+}
+.pub_block img{width: 100%;}
+#banner-top img{width: 99.6%;}
+
+.block_cat{
+    margin-top: 2%;
+}
+#banner-bottom img{
+	width: 100%;
+}
+.block_cat .block_text ul{
+    margin-top: 5%;
+}
+.block_cat .block_text ul li{
+    background: url("../images/separateur_elt_cat.jpg") no-repeat scroll left bottom transparent;
+    margin: auto auto auto 2%;
+    padding: 3% 0 3.5% 5%;
+}
+.block_cat .block_text ul li.last_elt_cat{
+    background: none;
+    margin: auto;
+    padding: 3% 0 0 5%;
+}
+.block_cat .block_text ul li a{
+    text-decoration: none;
+    color: #535353;
+    font-size: 13px;
+}
+.block_cat .block_text ul li.current a,
+.block_cat .block_text ul li:hover a{
+    color: #e2001a;
+}
+.inner_annonce_block{overflow: hidden;}
+.title_pagination{
+    background: url("../images/left_pagination.png") no-repeat scroll -3px top transparent;
+	clear: both;
+    padding-left: 11px;
+}
+div.h2_title{
+    margin-top: 0%;
+}
+.inner_title_pagination{
+    background: url("../images/right_pagination.png") no-repeat scroll right top transparent;
+    padding-right: 12px;
+}
+.inner2_title_pagination{
+    background: url("../images/rpt_pagination.png") repeat-x scroll right top transparent;
+    height: 50px;
+    line-height: 50px;
+}
+#home #h1_title, #home #h2_title{
+    color: #2a2623;
+}
+#h1_title, #h2_title{
+    color: #009edc;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: left;
+}
+#content-page{
+    border: 1px solid #B8B6B6;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 1.5%;
+}
+/****************fin gestion contenu du site *****/
+/**************** gestion du footer **************/
+#footer{
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    overflow: hidden;
+}
+/**************************Gestion des annonces mobiles ******************/
+#annonces-mobiles {
+    border-top: 4px solid #666666;
+    margin: 1.3% 0.3% 2px;
+    overflow: hidden;
+}
+#annonces-mobiles h3 {
+    background: url("../images/bg_mobiles_right.png") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    height: 34px;
+    line-height: 32px;
+    padding-right: 0.8%;
+    width: 16%;
+}
+#annonces-mobiles h3 a{
+    background: url("../images/bg_mobiles_rpt.png") repeat-x scroll right top transparent;
+    display: block;
+    font-size: 13px;
+    line-height: 34px;
+    padding-left: 3%;
+}
+
+#annonces-mobiles ul li{
+    color: #434343;
+    display: inline;
+    font-size: 12px;
+    height: 34px;
+    line-height: 32px;
+    overflow: hidden;
+}
+#annonces-mobiles ul li label{
+    color: #FF0000;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-left: 5px;
+    
+}
+#annonces-mobiles ul{
+    /*background: url("../images/puce_mobiles.jpg") no-repeat scroll left center transparent;*/
+    float: left;
+    height: 34px;
+    width: 100%;
+}
+#annonces-mobiles ul li .text_an{
+}
+#annonces-mobiles ul li .text_an a{
+    color: #434343;
+}
+#annonces-mobiles .simply-scroll{
+    background: url("../images/puce_mobiles.jpg") no-repeat scroll left center transparent;
+    float: left;
+    height: 34px;
+    margin-bottom: auto;
+    margin-left: 0.6%;
+    padding-left: 1.8%;
+    width: 80%;
+}
+#annonces-mobiles .simply-scroll .simply-scroll-clip{
+    height: 34px;
+    width: 100%;
+}
+#annonces-mobiles .simply-scroll .simply-scroll-list li{
+    width: auto;
+}
+/**********************Fin gestion des annonces mobiles *********/
+/********************** gestion des annonces mobiles*************/
+
+#annonces-speciales .simply-scroll {
+    background: url("../images/bg_speciales.png") no-repeat scroll left top #EEEEEE;
+    height: 158px;
+    margin: auto;
+    width: 100%;
+}
+#annonces-speciales .simply-scroll .simply-scroll-clip {
+    height: 138px;
+    padding: 9px 0;
+    width: 100%;
+}
+#annonces-speciales ul {
+    height: 138px;
+    overflow: hidden;
+    width: 100%;
+}
+#annonces-speciales .simply-scroll .simply-scroll-list li {
+    height: 136px;
+    overflow: hidden;
+    width: 182px;
+}
+#annonces-speciales a img {
+    display: inline;
+    width: 55.1%;
+}
+
+#annonces-speciales{
+    margin: auto 4px;
+}
+#annonces-speciales h3{
+    background: url("../images/rpt_speciales.png") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 6px;
+}
+#annonces-speciales ul{
+     width: 100%;
+     height: 138px;
+}
+#annonces-speciales ul li{
+    background: url("../images/bg_li_speciales.png") no-repeat scroll left top transparent;
+    float: left;
+    margin-left: 0.8%;
+    padding: 4px 0 0 10px;
+    width: 18%;
+    text-align: center;
+}
+#annonces-speciales h4{
+    margin-bottom: 3px;
+    margin-top: 3px;
+    overflow: hidden;   
+}
+#annonces-speciales h4 a{
+    color: #009036;
+    font-size: 10px;
+    height: 12px;
+    overflow: hidden;
+    width: 98%;   
+}
+#annonces-speciales a{
+    display: block;
+}
+#annonces-speciales a img{
+    width: 55.1%;
+}
+#annonces-speciales .descr{
+    color: #434343;
+    font-size: 10px;
+}
+#annonces-speciales .descr .shot_text{
+    font-style: italic;
+    margin: 2px auto;
+}
+#annonces-speciales .descr .wrap_span{
+    color: #434343;
+    display: block;
+    font-size: 8.57px;
+    height: 11px;
+    line-height: 11px;
+    margin: 6px auto;
+    overflow: hidden;
+    width: 98%;
+}
+#annonces-speciales .descr .wrap_span .contact{
+    color: #009036;
+}
+#annonces-speciales .simply-scroll{
+    
+}
+#annonces-speciales .simply-scroll .simply-scroll-clip{
+    
+}
+#annonces-speciales .simply-scroll .simply-scroll-list li{
+    
+}
+/***********************Fin gestion des annonces spéciales***************/
+#footer_bottom{
+    background: url("../images/bg_rpt_footer.png") repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 47px;
+    line-height: 30px;
+    margin: 7px 4px 1px;
+    text-align: center;
+    padding-top: 0.6em;
+    
+}
+
+/* Creation du compte */
+#create-account{
+    margin: 15px;
+}
+#create-account p{
+    font-family: verdana;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#create-account .table label{
+   font-style: normal;
+   display: inline-block;
+   width: 40%;
+       
+}
+#create-account .table input{
+   width: 50%;
+   border: 2px solid #c1bfbf;
+   
+}
+.required, .no_required{
+    color: #E2001A;
+    display: inline-block;
+    line-height: 12px;
+    width: 10px;
+}
+.required{
+    margin-right: 0px;
+}
+.displayNone{display: none;}
+textarea{
+    width: 98.5%;
+}
+
+/*********** footer *************/
+#footer_bottom .copy{
+    float: left;
+    margin-left: 6.7%;
+}
+#footer_bottom .footer_menu{}
+#footer #footer_bottom ul li{
+    padding: 0 1.1%;
+    border-left: 2px solid;
+    
+}
+#footer #footer_bottom ul li.firstin{
+    border-left: 0px solid;
+    padding-left: 0;
+}
+#footer #footer_bottom ul li a, #footer #footer_bottom ul li{
+    font-size: 1em;
+}
+#footer_bottom .crystals{
+    
+}
+/**************** fin gestion du footer **************/
+/**************** gestion de la pagination **********/
+.pagination{
+    float: right;
+}
+.pagination ul{
+    
+}
+.pagination ul li{
+    float: left;
+}
+.pagination ul li img{
+    
+}
+.pagination li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #009edb;
+    margin: auto 3px;
+}
+.pagination li a.current{color: #2a2623;}
+
+/**************** fin gestion de la pagination ******/
+.nbAnnonce{
+    margin-left: 5px;
+    text-transform: lowercase;
+    color: #2a2623;
+}
+.img_annonce{
+    float: left;
+    margin: auto 1% 1%;
+    width: 22.5%;
+}
+.desc_annonce{
+    color: #535353;
+    float: left;
+    font-size: 12px;
+    width: 73.5%;
+}
+.item-elt a{
+    text-decoration: none;
+    color: #009edb;
+    font-size: 12px;
+}
+.img_annonce a{
+    display: block;
+    height: 108px;
+}
+.img_annonce a img{
+    width: 100%;
+    height: 100%;
+}
+.titre_annonce{
+    display: block;
+    margin: 2% auto 1.3% 5%;
+}
+.titre_annonce span{
+    color: #85b801;
+}
+.wrap_price,.wrap_date{
+    color: #009EDB;
+}
+.wrap_price{
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin: 1.8% auto;
+}
+.wrap_price .price{
+    color: #e2001a;
+}
+.bottom_desc{
+    clear: both;
+    padding-top: 2%;
+}
+.wrap_date{
+    font-size: 11px;
+    float: left;
+    margin-right: 2%;
+}
+.wrap_date span{
+    color: #535353;
+    margin-left: 2px;
+}
+.item-elt .see_more{
+    background: url("../images/see_more.jpg") no-repeat scroll left center transparent;
+    color: #85B801;
+    float: right;
+    font-size: 11px;
+    padding-left: 11px;
+}
+.item-elt{
+    border: 1px solid #CECECE;
+    clear: both;
+    margin-bottom: 1.3%;
+}
+.last_elt{
+    margin-bottom: auto;
+}
+.texte_desc{
+    height: 58px;
+    line-height: 14px;
+    overflow: hidden;   
+}
+
+/***********pack credit**************/
+ #content-page .table #pack_credit {
+    margin: 3% 2% 3%;
+    overflow: hidden;
+ }
+  #content-page .table #pack_credit p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #626262;
+    margin-bottom: 5px;
+ }
+ #content-page .table #pack_credit .paiementlast{
+     padding: 2%;
+     text-transform: capitalize;     
+ }
+ #content-page .table #pack_credit .paiementlast img{
+     margin: auto 2%;    
+ }
+ #content-page .table #pack_credit .paiementlast span{
+     
+ }
+  #content-page .table #pack_credit .paiementlast a{
+     text-decoration: none;
+ }
+ #content-page .table #pack_credit .paiementlast a .prix {
+     color: #D80074;
+    font-size: 14px;
+    font-weight: bold;
+ }
+ 
+ .ZoneAnn{
+     text-decoration: none;
+     color: #ffffff;
+}
+#connexionPopUp .wrap_btn{
+	padding-top: 10px;
+    text-align: center;
+}
+.fancybox-close{
+    background-image: url("../images/close.png");
+    height: 15px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 15px;
+    z-index: 8040;
+ }
+ .fancybox-opened .fancybox-skin{
+	border: 1px solid #a30d0d;
+ }
+ .fancybox-skin {
+    background: none repeat scroll 0 0 #69BF86;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+}
+.fancybox-skin input[type="password"], .fancybox-skin input[type="text"]{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A30D0D;
+    color: #A30D0D;
+    font-family: 'verdana';
+    font-size: 12px;
+    margin: 9px auto 2px;
+    padding: 5px;
+    width: 94%;
+}
+.fancybox-skin textarea{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A30D0D;
+}
+.fancybox-skin .forgot{
+    padding: 10px 0 0px;
+    text-align: center;
+}
+.fancybox-skin .forgot a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'verdana';
+}
+.fancybox-skin .left-bouton{
+    
+}
+.fancybox-skin .right-bouton{
+    
+}
+.fancybox-skin .center-bouton{
+    
+}
+
+#breadcrumb a{
+    text-decoration: none;
+}
+#block-left{
+    clear: both;
+    margin-left: 1%;
+    width: 99%;
+}
+#block-right{
+    clear: both;
+    margin-left: 1%;
+    width: 99%;
+}

@@ -1,0 +1,571 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+             *{
+                margin: 0px;
+                padding: 0px;
+                border: none;
+              }
+              body{
+                background-color: #bfbfbf;
+             }
+             .clear{
+                 clear: both;
+             } 
+             #page{
+                background-color: #fff;
+                width: 683px;
+                margin: auto;              
+             }
+             #page #header{
+                 background: url("img/bg_header.png") repeat-x scroll top left transparent;                 
+                 height: 162px;
+             }
+             #page #contener{
+                 background: url("img/bg_content.png") no-repeat scroll transparent;                 
+                 height: 100%;
+             }
+             #page #contener #footer{
+                 background: url("img/bg_footer.png") repeat-x scroll top left transparent;                 
+                 height: 49px;
+             }
+             /***header**/
+             #page #header #logo{
+                 float: left;
+                  width: 42%;
+             }
+             #page #header #logo img{
+                 margin-left: 12%;
+                 margin-top: 14%;
+             }
+             #page #header #text_img{
+                 float: right;
+                 width: 48%;
+                 padding-top: 4%;
+             }
+             #page #header #text_img #news_num {
+                 float: left;
+                 margin-top: 3%;
+             }
+             #page #header #text_img img {
+                 float: right;
+                 margin-right: 10%;
+             }
+             #page #header .blue{
+                 color: #009edb;
+                 text-align: center;
+                 font-family: Arial;
+                 font-size: 14px;
+             }
+             #page #header .green{
+                 color: #00af4c;                 
+                 font-style: italic;
+                 font-size: 16px;
+             }
+             #page #header .gray{
+                 color: #707070;                 
+                 font-style: italic;
+                 font-size: 16px;
+             }
+             /****content****/
+             #content{
+                 padding: 1% 3%;                 
+             }
+             #content #head_title h3{
+                 font-family: Verdana;
+                 color:#03aadd;
+                 font-size: 20px;
+                 font-weight: normal;
+                 margin-bottom: 2%;
+             }
+             #content #head_title p{
+                 color: #313131;
+                 font-family: Verdana;
+                 font-size: 12px;
+             }
+             /*******footer******/
+             #contener #footer #foot_text {
+                 width: 70%;
+                 float: left;
+             }
+             #contener #footer #social_logo {
+                 width: 28%;
+                 float: right;
+             }
+             #contener #footer #social_logo img{
+                 margin-left: 7%;
+                 margin-top: 3%;
+             }
+             #contener #footer #foot_text p{
+                 font-size: 11px;
+                 padding-top: 1.5%;
+                 color: #fff;
+                 text-align: center;
+             }
+             #contener #footer #foot_text .type_p{
+                 font-style: italic;
+             }
+             #contener #footer #foot_text .yello{
+                 color: #f6cf46;
+             }
+             #contener #footer #foot_text a{
+                 text-decoration: none;
+             }
+             /*********list contener***********/
+             #item_list #left_bg{
+                background: url("img/bg_list_left.png") no-repeat scroll left top transparent;
+                display: inline-block;
+                padding-left: 7px;
+                height: 134px;
+             }
+             #item_list #right_bg{
+                 background: url("img/bg_list_right.png") no-repeat scroll right top transparent;
+                 display: inline-block;
+                 padding-right: 6px
+             }
+             #item_list #center{
+                 background: url("img/bg_list_middle.png") repeat-x scroll 0 0 transparent;
+                 height: 133px;
+                 margin-top: 1px;
+             }
+             #item_list #center .bloc_img{
+                 float: left;
+                 width: 20.5%;
+                 margin: auto 1% 0%;
+             }
+             #item_list #center .bloc_desc{
+                color: #535353;
+                float: left;
+                font-size: 12px;
+                width: 75.5%;
+             }
+             #item_list #center h3 a{
+                 text-decoration: none;
+                 font-style: Verdana;
+                 
+                 margin-left: 4%;
+             }
+             #item_list #center h3{
+                  font-size: 13px;
+                  font-weight: normal;
+                  padding-bottom: 1%;
+                  padding-top: 1%;
+             }
+             #item_list ul li{
+                 list-style: none;
+                 height: 153px;
+                 margin-top: 1.5%;
+             }
+             #item_list ul li.first{
+                 margin-top: 0%;
+             }
+             #item_list ul li #center .blue{
+                 color: #009edb;
+             }
+             #item_list ul li #center .lightt_green{
+                 color: #85b801;
+             }
+             #item_list ul li #center .red{
+                 color: #e2001a;
+             }
+             #item_list ul li #center p{
+                 padding: 1%
+             }
+             #item_list ul li #center p.published{
+                 padding-bottom: 0%
+             }
+             #item_list ul li #center p.bloc_text{
+                 padding-top: 0px;
+                 font-size: 13px;
+                padding-top: 0;
+                text-align: justify;
+                width: 100%;
+             }
+             #item_list ul li #center p.amount{
+                 font-size: 14px;
+                 margin-left: 71%;
+                 width: 33%;
+                 padding-bottom: 0;
+             }
+             /******show details*******/
+             #item_list #details .left_details{
+                background: url("img/bg_left_arrow.png") no-repeat scroll left top transparent;
+                display: inline-block;
+                padding-left: 6px;
+                margin: auto auto auto 74%;
+                
+             }
+             #item_list #details .right_details{
+                 background: url("img/bg_right_arrow.png") no-repeat scroll right top transparent;
+                 display: inline-block;
+                 padding-right:5px
+             }
+             #item_list #details .middle_details{
+                 background: url("img/bg_middlet_arrow.png") repeat-x scroll 0 0 transparent;
+                 display: inline-block;
+                 width: 100%;
+                 
+             }
+             #item_list #details .middle_details a{
+                 text-decoration: none;
+                 font-size: 12px;
+                 color: #FFF;
+                 margin-left: 5px;
+             }
+             #item_list {
+               padding-top: 5%;
+             }
+             /***********bloc list*********/
+              #block_list {
+                    background: url("img/bg_left_text.png") no-repeat scroll left top transparent;
+                    display: inline-block;
+                    padding-left: 6px;
+             }
+              #block_list .block_left{
+                 background: url("img/bg_right_text.png") no-repeat scroll right top transparent;
+                 display: inline-block;
+                 padding-right:5px
+             }
+              #block_list .block_right{
+                 background: url("img/bg_middle_text.png") repeat-x scroll 0 0 transparent;
+                 display: inline-block;
+                 width: 100%;
+                 height: 421px;
+             }
+             #block_list p{
+                 color: #626262;
+                 text-align: justify;
+                 font-family: verdana;
+                 font-size: 12px;
+                 margin-top: 0.5%;
+             }
+             #block_list .block_left .block_right h4{
+                 background: url("img/bg_h4.png") repeat-x scroll left bottom transparent;
+                 color: #313131;
+                 font-weight: normal;
+                 width: 321px;
+                 height: 22px;
+                 margin-top: 2%;
+             }
+             #block_list .block_left .block_right .title1{
+                 width: 133px;
+                  margin-top: 2%;
+             }
+             #block_list .block_left .block_right .title2{
+                 width: 133px;
+             }
+             #block_list .block_left .block_right .title3{
+                 width: 190px;
+             }             
+             #total_text{
+                 margin-top: 2%;
+                 padding-bottom: 2%;
+             }
+             /*******footer_list**************/
+             #footer_list{
+                 height: 160px;
+             }
+             #footer_list .footer_left{
+                 background: url("img/bg_footer_list_left.png") no-repeat scroll left top transparent;
+                 display: inline-block;
+                 padding-left: 5px
+             }
+             #footer_list .footer_right{
+                 background: url("img/bg_footer_list_right.png") no-repeat scroll right top transparent;
+                 display: inline-block;
+                 padding-right:5px;
+                     width: 633px;
+             }
+             #footer_list .footer_midle{
+                 background: url("img/bg_footer_list_middle.png") repeat-x scroll 0 0 transparent;
+                display: inline-block;
+                height: 158px;
+                width: 100%;
+             }
+             #footer_list .footer_midle ul li{
+                list-style: none;
+                float: left;
+                height: 90px;
+                margin-left: 2%;
+             }
+             #footer_list .footer_midle ul {
+                    margin-top: 4%;
+             }
+             #footer_list .footer_midle ul li{
+                    
+             }
+             #footer_list .footer_midle p{
+                 margin-left: 3%;
+                 color: #626262;
+                 font-family: verdana;
+                 font-size: 12px;
+                 margin-top: 1%;
+             }
+        </style>
+          
+    </head>
+    <body>
+        <div id="page">
+            <div id="header">
+                <div id="logo">
+                     <img src="img/logo.png" alt="logo">
+                </div>
+                <div id="text_img">
+                    <div id="news_num">
+                        <p class="green">Newsletter n°162</p>
+                        <p class="gray">10 janvier 2013</p>
+                    </div>
+                    <img src="img/enveloppe.png" alt="enveloppe">
+                </div>
+                <div class="clear"></div>
+                <div id="text_head">
+                    <p class="blue">Un marché virtuel pour votre réel buissness</p>
+                </div>
+            </div>
+            <div id="contener">                
+            
+                <div id="content">
+                    <div id="head_title">
+                        <h3>Les dernières annonces de la semaine !</h3>
+                        <p class="cont_text_head"> Bonjour Bernard,<br/>
+                            Annonce vous invite à ses nouvelles  lorem ipsum & prêt-à-porter Etam, de mode Aigle, de vêtements de ski 
+                            Nikita, de mode femme Rinatti, de soins Byphasse, de cigarettes électroniques lorem ipsum dolor to sammet
+                            EdSylver et de Briquets & Accessoires qui débuteront samedi 12 janvier à 9h..... 	
+                        </p>
+                    </div>
+                    <div id="item_list">
+                        <ul>
+                            <li class="item_list first">
+                                <div id="left_bg">
+                                    <div id="right_bg">
+                                        <div id="center">
+                                            <h3><a href=""><span class="blue">Duplex Odza</span>  <span class="lightt_green">[Cameroun]</span></a></h3>
+                                            
+                                            <div class="bloc_img"> <a href=""><img src="img/duplex.png" alt="duplex"></a></div>
+                                            <div class="bloc_desc">
+                                                <p class="bloc_text">Pharmacies de garde: Très bientot vous trouverez ici la liste complète de toutes les 
+                                                pharmacies de garde  à Yaoundé et toutes les autres villes du Cameroun, ainsi que 
+                                                d'autres informations d'urgence (Hopitaux, police, pompiers etc...)
+                                                </p>
+                                                <p class="amount"><span class="blue">Prix :</span> <span class="red">120.000.000 Fcfa</span></p>
+                                                <p class="published"><span class="blue">Publié le: </span>12/02/12 &nbsp;&nbsp;&nbsp; <span class="blue">Expire: </span>12/03/12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="details">
+                                    <span class="left_details">
+                                        <span class="right_details">
+                                            <span class="middle_details">
+                                                <img src="img/fleche.png" alt="fleche"/><a href="">Voir détail de l’annonce</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                             <li class="item_list">
+                                <div id="left_bg">
+                                    <div id="right_bg">
+                                        <div id="center">
+                                            <h3><a href=""><span class="blue">Duplex Odza</span>  <span class="lightt_green">[Cameroun]</span></a></h3>
+                                            
+                                            <div class="bloc_img"> <a href=""><img src="img/duplex.png" alt="duplex"></a></div>
+                                            <div class="bloc_desc">
+                                                <p class="bloc_text">Pharmacies de garde: Très bientot vous trouverez ici la liste complète de toutes les 
+                                                pharmacies de garde  à Yaoundé et toutes les autres villes du Cameroun, ainsi que 
+                                                d'autres informations d'urgence (Hopitaux, police, pompiers etc...)
+                                                </p>
+                                                <p class="amount"><span class="blue">Prix :</span> <span class="red">120.000.000 Fcfa</span></p>
+                                                <p class="published"><span class="blue">Publié le: </span>12/02/12 &nbsp;&nbsp;&nbsp; <span class="blue">Expire: </span>12/03/12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="details">
+                                    <span class="left_details">
+                                        <span class="right_details">
+                                            <span class="middle_details">
+                                                <img src="img/fleche.png" alt="fleche"/><a href="">Voir détail de l’annonce</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                             <li class="item_list">
+                                <div id="left_bg">
+                                    <div id="right_bg">
+                                        <div id="center">
+                                            <h3><a href=""><span class="blue">Duplex Odza</span>  <span class="lightt_green">[Cameroun]</span></a></h3>
+                                            
+                                            <div class="bloc_img"> <a href=""><img src="img/duplex.png" alt="duplex"></a></div>
+                                            <div class="bloc_desc">
+                                                <p class="bloc_text">Pharmacies de garde: Très bientot vous trouverez ici la liste complète de toutes les 
+                                                pharmacies de garde  à Yaoundé et toutes les autres villes du Cameroun, ainsi que 
+                                                d'autres informations d'urgence (Hopitaux, police, pompiers etc...)
+                                                </p>
+                                                <p class="amount"><span class="blue">Prix :</span> <span class="red">120.000.000 Fcfa</span></p>
+                                                <p class="published"><span class="blue">Publié le: </span>12/02/12 &nbsp;&nbsp;&nbsp; <span class="blue">Expire: </span>12/03/12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="details">
+                                    <span class="left_details">
+                                        <span class="right_details">
+                                            <span class="middle_details">
+                                                <img src="img/fleche.png" alt="fleche"/><a href="">Voir détail de l’annonce</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                             <li class="item_list">
+                                <div id="left_bg">
+                                    <div id="right_bg">
+                                        <div id="center">
+                                            <h3><a href=""><span class="blue">Duplex Odza</span>  <span class="lightt_green">[Cameroun]</span></a></h3>
+                                            
+                                            <div class="bloc_img"> <a href=""><img src="img/duplex.png" alt="duplex"></a></div>
+                                            <div class="bloc_desc">
+                                                <p class="bloc_text">Pharmacies de garde: Très bientot vous trouverez ici la liste complète de toutes les 
+                                                pharmacies de garde  à Yaoundé et toutes les autres villes du Cameroun, ainsi que 
+                                                d'autres informations d'urgence (Hopitaux, police, pompiers etc...)
+                                                </p>
+                                                <p class="amount"><span class="blue">Prix :</span> <span class="red">120.000.000 Fcfa</span></p>
+                                                <p class="published"><span class="blue">Publié le: </span>12/02/12 &nbsp;&nbsp;&nbsp; <span class="blue">Expire: </span>12/03/12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="details">
+                                    <span class="left_details">
+                                        <span class="right_details">
+                                            <span class="middle_details">
+                                                <img src="img/fleche.png" alt="fleche"/><a href="">Voir détail de l’annonce</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                             <li class="item_list">
+                                <div id="left_bg">
+                                    <div id="right_bg">
+                                        <div id="center">
+                                            <h3><a href=""><span class="blue">Duplex Odza</span>  <span class="lightt_green">[Cameroun]</span></a></h3>
+                                            
+                                            <div class="bloc_img"> <a href=""><img src="img/duplex.png" alt="duplex"></a></div>
+                                            <div class="bloc_desc">
+                                                <p class="bloc_text">Pharmacies de garde: Très bientot vous trouverez ici la liste complète de toutes les 
+                                                pharmacies de garde  à Yaoundé et toutes les autres villes du Cameroun, ainsi que 
+                                                d'autres informations d'urgence (Hopitaux, police, pompiers etc...)
+                                                </p>
+                                                <p class="amount"><span class="blue">Prix :</span> <span class="red">120.000.000 Fcfa</span></p>
+                                                <p class="published"><span class="blue">Publié le: </span>12/02/12 &nbsp;&nbsp;&nbsp; <span class="blue">Expire: </span>12/03/12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="details">
+                                    <span class="left_details">
+                                        <span class="right_details">
+                                            <span class="middle_details">
+                                                <img src="img/fleche.png" alt="fleche"/><a href="">Voir détail de l’annonce</a>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="total_text">
+                    <div id="block_list">
+                        <div class="block_left">
+                            <div class="block_right">
+                                <h4 class="title1">Vente Automobile </h4>
+                                <p>Avec la promotion paniers, vous pouvez créer des règles de réduction en masse dans votre panier. Offrir un 
+                                cadeau si le panier dépasse un certain montant, appliquer une réduction si plusieurs produits identifiés sont
+                                ajoutés au panier, offrir les frais de ports sur certains produits... tout est réalisable en quelques clics 
+                                directement dans le back office.</p>
+
+                                <h4 class="title2">Terrains à vendre</h4>
+                                <p>Créez des règles de réduction en masse directement depuis votre catalogue. Une réduction sur une catégorie
+                                un cadeau offert pour l'achat d'une produit d'une marque identifiée... réalisez toutes sortes de règles 
+                                simplement.<p>
+
+                                <h4 class="title3">Gestion des stocks avancée</h4>
+                                <p>Pour plus d'efficacité, PrestaShop intègre une gestion de stocks permettant de différencier votre stock 
+                                physique et vos quantités de produit disponibles à la vente en boutique(s). Vous pouvez gérer votre stock 
+                                physique dans différents entrepôts, générer des commandes aux fournisseurs et avoir une vision de l'état de
+                                vos stocks à travers des interfaces claires et précises.</p>
+
+                               <h4 class="title4">Passage et édition de commande en Back Office</h4>
+                               <p>L'édition des commandes en Back Office est optimisée et assouplie. Elle vous permet notamment de modifier 
+                                des paniers ou des produits déjà commandés. Vous allez également pouvoir passer des commandes depuis
+                                le Back Office, vous permettant ainsi d'aider vos clients à acheter sur votre site (lorsqu'ils vous contactent 
+                                par téléphone par exemple).</p>
+                            </div>
+                        </div>
+                       </div>
+                    </div> 
+                    <div id="footer_list">
+                        <div class="footer_left">
+                            <div class="footer_right">
+                                <div class="footer_midle">
+                                    <p>Ils nous ont fait confiance :</p>
+                                    <ul>
+                                        <li>
+                                            <a href=""><img src="img/EU.png" alt="express union"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/Orangemoney.png" alt="orange"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/mtnpay.png" alt="mtn"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/EU.png" alt="express union"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/Orangemoney.png" alt="orange"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/mtnpay.png" alt="mtn"/> </a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/camtel.png" alt="camtel"/> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+            
+                <div id="footer">
+                    <div id="foot_text">
+                        <p class="type_p">Si vous ne souhaitez plus recevoir les offres d’annonce et de ses partenaires cliquer <a href=""><span class="yello">ici</span></a></p>
+                        <p>Copyright 2008 - 2010 tous droits reservés   </p>
+                    </div>
+                    <div id="social_logo">
+                        <a href=""><img src="img/facebook.png" alt="facebbok"></a>
+                        <a href=""><img src="img/twitter.png" alt="twitter"></a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

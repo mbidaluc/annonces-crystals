@@ -1,0 +1,18 @@
+/* 
+    Document   : Categories
+    Created on : 8 févr. 2013, 06:32:07
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#content-page{
+    border: 0px solid #B8B6B6;
+    border-radius: 0px;
+}
+.pagination_bottom{
+    margin-top: 1.9%;
+}

@@ -1,0 +1,28 @@
+
+
+.jqplot-target {
+    margin: 20px;
+    height: 340px;
+    width: 600px;
+    color: #dddddd;
+}
+
+.ui-widget-content {
+    background: rgb(57,57,57);
+}
+
+table.jqplot-table-legend {
+    border: 0px;
+    background-color: rgba(100,100,100, 0.0);
+}
+
+/*.jqplot-highlighter-tooltip {
+    background-color: rgba(57,57,57, 0.9);
+    padding: 7px;
+    color: #dddddd;
+}*/
+
+.statblock{
+    display: inline-block;
+    padding: 10px;
+}

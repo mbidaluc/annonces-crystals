@@ -1,0 +1,13 @@
+
+<routes>
+    <route url="/admin/paiement-credits.html" module="PaiementCredits" action="paiementCredits"/>
+    <route url="/admin/actiongroupedpc.html" module="PaiementCredits" action="results"/>
+    
+    <route url="/admin/validating-credits.html" module="PaiementCredits" action="paiementCreditsNonEffectue"/>
+    <route url="/admin/validated-credits.html" module="PaiementCredits" action="paiementCreditsEffectue"/>
+    
+    <route url="/admin/activate-credit-([0-9]+)\.html" module="PaiementCredits" action="activatOrderPack" vars="id"/>
+    <route url="/admin/desactivate-credit-([0-9]+)\.html" module="PaiementCredits" action="desactivatOrderPack" vars="id"/>
+    <route url="/admin/validatepack.html" module="PaiementCredits" action="ValidationPack" />
+</routes>
+            

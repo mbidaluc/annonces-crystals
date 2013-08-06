@@ -1,0 +1,7 @@
+
+<routes>
+    <route url="/admin/priorite.html" module="Priorite" action="priorite"/>
+    <route url="/admin/priorite-edit.html" module="Priorite" action="prioritecreate" vars="id"/>
+    <route url="/admin/priorite-edit-([0-9]+)\.html" module="Priorite" action="prioritecreate" vars="id"/>
+    <route url="/admin/priorite-delete-([0-9]+)\.html" module="Priorite" action="delete" vars="id"/>
+</routes>

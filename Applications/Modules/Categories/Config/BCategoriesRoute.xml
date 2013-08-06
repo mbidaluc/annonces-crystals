@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Routes backend du module possible du module 
+-->
+<routes>
+    <route url="/admin/categories.html" module="Categories" action="categories"></route>
+    <route url="/admin/categories-edit-([0-9]+)\.html" module="Categories" action="create" vars="idFils"/>
+    <route url="/admin/categories-edit.html" module="Categories" action="create"></route>
+    <route url="/admin/categories-delete-([0-9]+)\.html" module="Categories" action="delete" vars="idFils"/>
+    
+     <route url="/admin/actiongroupedcat.html" module="Categories" action="results" />
+</routes>

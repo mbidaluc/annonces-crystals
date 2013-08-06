@@ -1,0 +1,8 @@
+
+<routes>
+    <route url="/modepaiementfront.html" module="PaiementMod" action="listmodepaiement" />
+    <route url="/modepaiementfrontpub.html" module="PaiementMod" action="listmodepaiementpub" />
+    <route url="/modepaiementfrontpacks-([0-9]+).html" module="PaiementMod" action="Listmodepaiementcredits" vars="id"/>
+    <route url="/modepaiementfrontpacks.html" module="PaiementMod" action="Listmodepaiementcredits"/>
+</routes>
+                        

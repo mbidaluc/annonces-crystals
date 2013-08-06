@@ -1,0 +1,10 @@
+
+<routes>
+    <route url="/admin/statistiques.html" module="Statistiques" action="visiteurs"/>
+    
+    <route url="/admin/visiteurs.html" module="Statistiques" action="visiteurs"/>
+    <route url="/admin/statcommandes.html" module="Statistiques" action="commandes"/>
+    <route url="/admin/statpaiementmod.html" module="Statistiques" action="statPaiementMode"/>
+    <route url="/admin/statglobalview.html" module="Statistiques" action="globalView"/>
+</routes>
+                        

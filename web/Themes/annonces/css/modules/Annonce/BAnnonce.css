@@ -1,0 +1,150 @@
+/* 
+    Document   : Annonce
+    Created on : 8 févr. 2013, 06:31:38
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.create_annonce fieldset{
+    float: left;
+    width: 56%;
+}
+.create_annonce .block_image{
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    width: 33.5%;
+}
+.create_annonce .text_area{
+    clear: both;
+    float: none;
+    width: auto;
+}
+.top_photos{
+    background: url('../../../images/bg_top_photos.png') no-repeat scroll 1px top transparent;
+    padding-top: 10px;
+}
+.bottom_photos{
+     background: url('../../../images/bg_bottom_photos.png') no-repeat scroll left bottom transparent;
+     padding-bottom: 9px;
+}
+.rpt_photos{
+     background: url('../../../images/rpt_photos.png') repeat-y scroll left top transparent;
+     overflow: hidden;
+     padding: 0 5px;
+}
+.rpt_photos span{
+    color: #D80074;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin: 6% 2%;
+    text-align: center;
+}
+.rpt_photos span.photos{
+    color: #009EDB;
+    font-size: 12px;
+    margin: 5%;
+}
+#tabsimages_text{
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+#tabsimages{
+    margin-top: 8px;
+}
+#tabsimages li{
+    background: none repeat scroll 0 0 #DCDCDC;
+    float: left;
+    height: 47px;
+    margin-bottom: 6px;
+    margin-right: 4%;
+    overflow: hidden;
+    width: 30.5%;
+}
+#tabsimages li.last_line{
+    margin-right: auto;
+}
+.rpt_photos #tabsimages li span{
+    
+}
+.create_annonce{
+    margin: 5% 2% 1%;
+}
+.create_annonce fieldset label{
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 33%;
+}
+select, input[type='text']{
+    background: #f3fbf5;
+    border: 1px solid #c1bfbf;
+    width: 45%;
+}
+.create_annonce p{
+    margin: 3% auto;
+}
+#spacePrice{
+    color: #d80074;
+    font-weight: bold;
+    font-size: 18px;
+}
+.rpt_photos span.left_add{
+    background: url('../../../images/left_add_photos.png') no-repeat scroll left top transparent;
+    padding-left: 7px;
+}
+.rpt_photos span.right_add{
+    background: url('../../../images/right_add_photos.png') no-repeat scroll right top transparent;
+    padding-right: 5px;
+}
+.rpt_photos span.add_img{
+    margin: auto;
+    display: inline-block;
+}
+#tabsimages_text input[type='button']{
+    background: url("../../../images/rpt_add_photos.png") repeat-x scroll right top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 23px;
+    line-height: 16px;
+    padding-bottom: 4px;
+}
+.create_annonce p.center{
+    margin: auto;
+    text-align: center;
+}
+
+/*#tabsimageupdate{
+    margin-top: 8px;
+}
+#tabsimageupdate li{
+    background: none repeat scroll 0 0 #DCDCDC;
+    float: left;
+    height: 47px;
+    margin-bottom: 6px;
+    margin-right: 4%;
+    overflow: hidden;
+    width: 30.5%;
+}
+#tabsimageupdate li.last_line{
+    margin-right: auto;
+}
+
+#tabsimageupdate .ui-icon { float: left; }*/
+#detail_annonce #content-page{
+    border: 0 solid #B8B6B6;
+    border-radius: 0 0 0 0;
+}
+gallery.custom-state-active { background: #eee; }
+	.gallery li { float: left; width: 70px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+	.gallery li a { float: right; }
+	.gallery li img { width: 100%; }
+    
+    

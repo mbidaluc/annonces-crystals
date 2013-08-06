@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--
+Routes backend du module possible du module 
+-->
+
+<routes>
+    
+    <route url="/admin/newsletter.html" module="Newsletters" action="List"/>
+    <route url="/admin/add-newsletter.html" module="Newsletters" action="create" />
+    <route url="/admin/send-newsletter.html" module="Newsletters" action="send"/>
+    <route url="/admin/newsletter-edit-([0-9]+)\.html" module="Newsletters" action="create" vars="id_news"/>
+    <route url="/admin/newsletter-delete-([0-9]+)\.html" module="Newsletters" action="delete" vars="id_news"/>
+    <route url="/admin/newsletter-membre.html" module="Newsletters" action="member"/>
+
+</routes>

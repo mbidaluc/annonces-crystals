@@ -1,0 +1,67 @@
+/* 
+    Document   : Index
+    Created on : 29 janv. 2013, 12:30:09
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#home #content-page{
+    border: 0px solid #B8B6B6;
+    border-radius: 0px;
+}
+
+#home #category_home{
+    
+}
+#category_home li{
+    border: 1px solid #D3D3D3;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2.5%;
+    text-align: center;
+    width: 49%;
+}
+#category_home li.last_elt_line{
+     margin-right: auto;
+}
+#category_home li a.titre_cat{
+    color: #009EDB;
+    display: block;
+    font-family: Verdana;
+    font-size: 10px;
+    height: 12px;
+    line-height: 12px;
+    margin: 2% auto;
+    overflow: hidden;
+    text-decoration: none
+}
+#category_home li a.titre_cat span.quantity_a{
+    color: #cc0000;
+}
+#category_home li a.wrap_img_cat{
+    display: table-cell;
+    height: 94px;
+    text-align: center;
+    vertical-align: middle;
+    width: 139px;
+}
+#category_home li a.wrap_img_cat img{
+    width: 84.9%;
+}
+#category_home li .desc_cat{
+    color: #434343;
+    font-size: 10px;
+    height: 26px;
+    line-height: 13px;
+    margin: 1% 7% 3%;
+    overflow: hidden;
+    text-align: left;  
+}
+.c_img_cat{
+    height: 94px;
+    overflow: hidden;
+}
+#home .pagination_bottom{
+    margin-top: auto;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Routes.xml
+    Created on : 8 avril 2012, 10:38
+    Author     : FFOZEU
+    Description:
+        Purpose of the document follows.
+-->
+
+<routes>
+    <route url="/admin/" module="Index" action="index"/>
+    <route url="/admin/sites.html" module="Sites" action="sites"/>
+    <route url="/admin/login.html" module="Users" action="connect"/>
+    <route url="/admin/faq.html" module="Faq" action="listeFaq" />
+    <route url="/admin/add-faq.html" module="Faq" action="create"/>
+    <route url="/admin/faq-delete-([0-9]+)\.html" module="Faq" action="delete" vars="id"/>
+    <route url="/admin/faq-edit-([0-9]+)\.html" module="Faq" action="create" vars="id"/>
+    <route url="/admin/packs.html" module="Packs" action="packs"/>
+    <route url="/admin/add-packs.html" module="Packs" action="create"/>
+    <route url="/admin/packs-edit-([0-9]+)\.html" module="Packs" action="create" vars="id"/>
+    <route url="/admin/packs-delete-([0-9]+)\.html" module="Packs" action="delete" vars="id"/>
+    <route url="/admin/cms-page.html" module="Cms" action="cms"/>
+    <route url="/admin/add-cms.html" module="Cms" action="create"/>
+    <route url="/admin/cms-edit-([0-9]+)\.html" module="Cms" action="create" vars="id"/>
+    <route url="/admin/cms-delete-([0-9]+)\.html" module="Cms" action="delete" vars="id"/>
+    
+    <route url="/admin/newsletter.html" module="Newsletters" action="List"/>
+    <route url="/admin/add-newsletter.html" module="Newsletters" action="create"/>
+    <route url="/admin/newsletter-edit-([0-9]+)\.html" module="Newsletters" action="create" vars="id"/>
+    <route url="/admin/newsletter-delete-([0-9]+)\.html" module="Newsletters" action="delete" vars="id"/>
+    <route url="/admin/newsletter-membre.html" module="Newsletters" action="member"/>
+    <!--<route url="/admin/user.html" module="Users" action="Listuser"/>
+    <route url="/admin/add-user.html" module="Users" action="create"/>
+    <route url="/admin/user-edit-([0-9]+)\.html" module="Users" action="edit" vars="id"/>
+    <route url="/admin/user-detail-([0-9]+)\.html" module="Users" action="detailUser" vars="id"/>
+    <route url="/admin/user-delete-([0-9]+)\.html" module="Users" action="delete" vars="id"/>-->
+    <route url="/admin/encheres.html" module="Encheres" action="encheres"/>
+    <route url="/admin/encheres-a-une.html" module="Encheres" action="enchereUne"/>
+    <route url="/admin/encheres-en-cours.html" module="Encheres" action="enchereEnCours"/>
+    <route url="/admin/encheres-a-venir.html" module="Encheres" action="enchereBecome"/>
+    <route url="/admin/encheres-terminee.html" module="Encheres" action="enchereFinish"/>
+    <route url="/admin/add-encheres.html" module="Encheres" action="create"/>
+    <route url="/admin/enchere-edit-([0-9]+)\.html" module="Encheres" action="create" vars="id"/>
+    <route url="/admin/enchere-delete-([0-9]+)\.html" module="Encheres" action="delete" vars="id"/>
+    <route url="/admin/enchere-delete-image-(.+)-([0-9]+)\.html" module="Encheres" action="deleteImage" vars="imagedel,id"/>
+    <route url="/admin/encheres-detail-([0-9]+)\.html" module="Encheres" action="show" vars="id"/>
+
+    <route url="/admin/bgmanager.html" module="BgManager" action="bgmanager"/>
+    <route url="/admin/bgmanager-editpage-([0-9]+)\.html" module="BgManager" action="create" vars="id"/>
+    <route url="/admin/bgmanager-editbg.html" module="BgManager" action="definebg" />
+    <route url="/admin/bgmanager-editpage.html" module="BgManager" action="create" vars="id"/>
+    <route url="/admin/bgmanager-delete-([0-9]+)\.html" module="BgManager" action="delete" vars="id"/>
+
+    <route url="/admin/categories.html" module="Categories" action="categories"/>
+    <route url="/admin/categories-edit-([0-9]+)\.html" module="Categories" action="create" vars="idFils"/>
+    <route url="/admin/categories-edit.html" module="Categories" action="create" />
+    <route url="/admin/categories-delete-([0-9]+)\.html" module="Categories" action="delete" vars="idFils"/>
+
+
+
+    <route url="/admin/log-in.html" module="Utilisateurs" action="connect"/>
+    <route url="/admin/utilisateurs.html" module="Utilisateurs" action="utilisateurs"/>
+    <route url="/admin/add-user.html" module="Utilisateurs" action="createuser"/>
+    <route url="/admin/utilisateur-edit-([0-9]+)\.html" module="Utilisateurs" action="edituser" vars="id"/>
+    <route url="/admin/utilisateur-delete-([0-9]+)\.html" module="Utilisateurs" action="deleteuser" vars="id"/>
+    <route url="/admin/deconnexion.html" module="Utilisateurs" action="logout" />
+
+    <route url="/admin/groupeutilisateurs.html" module="Utilisateurs" action="groupeutilisateurs"/>
+    <route url="/admin/add-groupuser.html" module="Utilisateurs" action="creategroupeuser"/>
+    <route url="/admin/groupeutilisateurs-edit-([0-9]+)\.html" module="Utilisateurs" action="creategroupeuser" vars="id"/>
+    <route url="/admin/groupeutilisateurs-delete-([0-9]+)\.html" module="Utilisateurs" action="groupedeleteuser" vars="id"/>
+    
+    <route url="/admin/pub.html" module="Advers" action="pub"/>
+    <route url="/admin/add-pub.html" module="Advers" action="create"/>
+    <route url="/admin/pub-edit-([0-9]+)\.html" module="Advers" action="create" vars="id_annonce_pub"/>
+    <route url="/admin/pub-detail-([0-9]+)\.html" module="Advers" action="show" vars="id_annonce_pub"/>
+    <route url="/admin/pub-delete-([0-9]+)\.html" module="Advers" action="delete" vars="id_annonce_pub"/>
+
+    <route url="/admin/modulecreator.html" module="ModuleCreator" action="createmodule"/>
+
+</routes>

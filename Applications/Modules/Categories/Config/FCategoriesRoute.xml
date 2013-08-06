@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<routes>
+    <route url="/([a-zA-Z0-9-]+)" module="Categories" action="show" vars="link_rewrite"/>
+</routes>

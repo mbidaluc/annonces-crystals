@@ -1,0 +1,10 @@
+
+<routes>
+    <route url="/registeruser.html" module="Tchat" action="registerOnlineUser" />
+    <route url="/updateonlinestatus.html" module="Tchat" action="updateOnlineUserStatut"/>   
+    <route url="/sendmessagechat.html" module="Tchat" action="postMessage"/>
+    <route url="/exchangedmessagesoftoday.html" module="Tchat" action="exchangedMessageOfToday"/>
+    <route url="/onlineuser.html" module="Tchat" action="myOnlineUser"/>
+    <route url="/disconnectuser.html" module="Tchat" action="disconnectOnlineUser"/>
+</routes>
+                        

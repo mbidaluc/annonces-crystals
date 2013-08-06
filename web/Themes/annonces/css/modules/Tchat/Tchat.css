@@ -1,0 +1,90 @@
+/* 
+    Document   : Tchat
+    Created on : 2 avr. 2013, 10:44:00
+    Author     : MBID
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.clear{ clear: both;}
+#ModalTchat #sendButton .sendButton_left{
+    background: url("../../../images/left_send.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 64px;
+    margin: auto;
+    padding-left: 6px;
+    width: 91%;
+}
+#ModalTchat #sendButton .sendButton_right{
+    background: url("../../../images/right_send.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 64px;
+    padding-right: 6px;
+    width:97%;
+}
+#ModalTchat #sendButton button#Btnsendchat {
+    background: url("../../../images/middle_send.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 64px;
+    width: 100%;
+}
+#ModalTchat #disconnectButton .disco_left{
+    background: url("../../../images/left_disconect.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 26px;
+    margin: auto;
+    padding-left: 5px;
+    /*width: 28%;*/
+}
+#ModalTchat #disconnectButton .disco_right{
+    background: url("../../../images/right_disconect.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 26px;
+    padding-right: 5px;
+    width: 95%;
+}
+#ModalTchat #disconnectButton button#disconnectChatUser{
+    background: url("../../../images/middle_disconect.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 26px;
+    width: 100%;
+}
+#chattxtarea{ width: 75%; float: left; border: 1px solid #FF0000;}
+#sendButton{ float: right; padding-left: 3%; padding-top: 1%; width: 20%;}
+#ModalTchat{ background-color: #FFF; padding-left: 0.5em; padding-right: 0.5em;}
+#ModalTchat #tchat_bg{
+    background: url("../../../images/bg_tchatche.png") no-repeat scroll center transparent;
+    height: 526px;
+    width: 587px;     
+}
+#messageschat{
+    width:75%;
+    height: 300px;
+    background-color: #fff;
+    border: 1px  solid #FF0000;
+    float: left;
+}
+#iconsZones{ float: left; width: 75%; padding-top: 4%;}
+#disconnectButton{ float: right;  width: 20%;  padding-top: 1%;}
+#VisibleStatus{ width: 23%; float: right;}
+#connectedZone{padding-top: 5%;}
+#connectedZone #connectedList #onlineUser{ width: 100%; height: 260px;overflow: auto;}
+#ModalTchat #logo_tchat img{margin-left: 3%;margin-top: 1%;}
+#ModalTchat #total_tchat{padding: 2%;}
+#VisibleStatus form #onlineStatus{width: 85%;float: right;}
+
+#VisibleStatus form #status_user{float: left; height: 19px; width: 12%;}
+#emoticones{background-color: #FFFFFF; border: 1px solid #FF0000; margin-left: 4%; margin-right: 0%; width: 15%;}

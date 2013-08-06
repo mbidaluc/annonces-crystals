@@ -1,0 +1,9 @@
+<routes>
+    
+    <route url="/admin/newsletter-params.html" module="NewsLetter" action="newsletterparams"/>
+    <route url="/admin/send-newsletter.html" module="NewsLetter" action="send"/>
+    <route url="/admin/newsletter-membre.html" module="Members" action="members"/>
+    
+    <route url="/admin/newsletter-envoie.html" module="NewsLetter" action="newletterstemplate"/>
+
+</routes>

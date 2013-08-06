@@ -1,0 +1,16 @@
+<routes>
+    <route url="/admin/log-in.html" module="Utilisateurs" action="connect"/>
+    <route url="/admin/utilisateurs.html" module="Utilisateurs" action="utilisateurs"/>
+    <route url="/admin/add-user-([0-9]+)\.html" module="Utilisateurs" action="createuser" vars="id"/>
+     <route url="/admin/add-user.html" module="Utilisateurs" action="createuser" />
+    <route url="/admin/utilisateur-edit-([0-9]+)\.html" module="Utilisateurs" action="edituser" vars="id"/>
+    <route url="/admin/utilisateur-delete-([0-9]+)\.html" module="Utilisateurs" action="deleteuser" vars="id"/>
+    <route url="/admin/deconnexion.html" module="Utilisateurs" action="logout" />
+
+    <route url="/admin/groupeutilisateurs.html" module="Utilisateurs" action="groupeutilisateurs"/>
+    <route url="/admin/add-groupuser.html" module="Utilisateurs" action="creategroupeuser"/>
+    <route url="/admin/groupeutilisateurs-edit-([0-9]+)\.html" module="Utilisateurs" action="creategroupeuser" vars="id"/>
+    <route url="/admin/groupeutilisateurs-delete-([0-9]+)\.html" module="Utilisateurs" action="groupedeleteuser" vars="id"/>
+    
+    <route url="/admin/actiongroupeduser.html" module="Utilisateurs" action="results" />
+</routes>

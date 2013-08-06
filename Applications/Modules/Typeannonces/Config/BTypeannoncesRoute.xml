@@ -1,0 +1,7 @@
+
+<routes>
+    <route url="/admin/typeannonce.html" module="Typeannonces" action="typeannonces"/>
+    <route url="/admin/typeannonce-edit.html" module="Typeannonces" action="typeannoncecreates" vars="id"/>
+    <route url="/admin/typeannonce-edit-([0-9]+)\.html" module="Typeannonces" action="typeannoncecreates" />
+    <route url="/admin/typeannonce-delete-([0-9]+)\.html" module="Typeannonces" action="delete" vars="id"/>
+</routes>

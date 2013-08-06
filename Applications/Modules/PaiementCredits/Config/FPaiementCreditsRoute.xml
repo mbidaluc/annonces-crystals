@@ -1,0 +1,5 @@
+
+<routes>
+    <route url="/paiementpacks-([0-9]+)\.html" module="PaiementCredits" action="paiementCredits" vars="idModpaiement"/>
+    <route url="/paiementpacks.html" module="PaiementCredits" action="paiementCredits" />
+</routes>

@@ -1,0 +1,70 @@
+root{ 
+    display: block;
+}
+#center-page #content-page{
+    height: 554px;
+    margin-top: 5.8%;
+    overflow: auto;
+}
+#center-page #content-page form{}
+#center-page #content-page #texte-newsletter p{
+    font-style: italic;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 3% auto 3% 3%;
+}
+#center-page #content-page #CategorieList #idCategorie{margin-right: 47px;}
+#center-page #content-page #CategorieList{float: right;}
+#center-page #content-page  #subcategoriezone{
+    float: left;
+    margin-left: 27%;
+}
+#center-page #content-page form  #registerInfos p label{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 2%;
+    width: 15%;
+}
+#center-page #content-page form #registerInfos p{margin: 2% auto;}
+#center-page #content-page form #registerInfos ul li{
+    float: left;
+    height: 1.8em;
+    width: 27%;
+    margin: 12px 12px 12px 0px;
+    padding-left: 12px;
+}
+#center-page #content-page form #registerInfos{clear: both;}
+#center-page #content-page form #registerInfos ul{height: 3.8em;}
+#center-page #content-page ul li input[type="text"]{    
+    border: 1px solid #C1BFBF;
+    width: 98%;
+    color: #7D7D7D;
+    font-size: 10px;
+    height: 17px;
+}
+/*******boutton submit*******/
+#content-page form #registerInfos ul li .bg_left_bouton{
+    background: url("../../../images/bg_submit_black_left.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 24px;
+    padding-left: 2px;
+    width: 90%;
+}
+#content-page form #registerInfos ul li .bg_right_button{
+    background: url("../../../images/bg_submit_black_right.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 24px;
+    padding-right: 2px;
+    width: 97%;
+}
+#content-page form #registerInfos ul li input.send{
+    background: url("../../../images/bg_submit_black_middle.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 24px;
+    width: 100%;
+}

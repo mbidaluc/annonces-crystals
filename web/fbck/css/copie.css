@@ -1,0 +1,126 @@
+/* 
+    Document   : facebk
+    Created on : 7 févr. 2013, 12:02:41
+    Author     : DANIOU
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+root { 
+    display: block;
+}
+body{ 
+     background-color: #787986;    
+}
+#page{
+    background-image: url('../img/background_img3.png');
+    background-repeat: repeat-x;
+    height: 1112px;
+    width: 750px;
+    margin: auto;
+}
+/*START HEADER*/
+#header{
+   
+    background-repeat: no-repeat;
+    height: 163px;
+}
+#main_header{
+    float: left;
+    /*width: 380px;*/
+}
+#main_header img{
+    margin-left: 25px;
+    margin-top: 21px;
+    
+}
+#texte{
+    float: right;
+    margin-top: 54px;
+    margin-right: 236px;   
+}
+#texte p{
+     text-decoration-color: #009edb;
+     color: #009edb;     
+}
+#menu{
+    clear: both;
+    background-image: url('../img/menu_background.png');
+    background-repeat: repeat-x;
+    height: 40px;      
+}
+#menu_list{
+    width: 70%;
+    margin: auto;
+}
+#menu_list ul li{
+    display:inline;    
+    list-style: none;
+    color:white;
+    padding: 0 6px 0 6px;
+    height: 31px;    
+    margin:1px;
+}
+#menu_list ul li a{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 11px;
+}
+#acceuil{
+    margin-top: -15px;
+    margin-left: 11px;
+}
+#acceuil p{
+    font-size: 12px;
+}
+/*END HEADER*/
+/*START CONTENT*/
+#content{
+    background-image: url('../img/midle_background.png');
+    background-repeat: repeat-x;
+    margin-top: -55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+}
+#content_header{
+   margin-top: 23px;   
+}
+#content_header img{
+    margin-top: 20px;
+    margin-left: 17px;
+}
+#logo2{
+    margin-top: -175px;
+    
+}
+#bar1{
+    background-image: url('../img/bande_midle.png');
+    background-repeat: repeat-x;
+    height: 36px;
+     border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -ms-border-radius:10px 10px 0 0;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 111px;
+}
+#texte2{
+    float: left;
+    margin-top: 6px;
+    margin-left: 14px;   
+}
+#texte2 p{
+    
+     font-size: 14px;
+          
+}
+
+/*START CONTENT*/

@@ -1,0 +1,11 @@
+<routes>
+    <route url="/admin/bgmanager.html" module="BgManager" action="bgmanager"/>
+    <route url="/admin/bgmanager-editpage-([0-9]+)\.html" module="BgManager" action="create" vars="id"/>
+    <route url="/admin/bgmanager-editbg.html" module="BgManager" action="definebg" />
+    <route url="/admin/bgmanager-editpage.html" module="BgManager" action="create" vars="id"/>
+    <route url="/admin/bgmanager-delete-([0-9]+)\.html" module="BgManager" action="delete" vars="id"/>
+    <route url="/admin/bgmanager-deletebg-([0-9]+)\.html" module="BgManager" action="deleteBg" vars="id"/>
+    <route url="/admin/bgmanager-deletebgbody-([0-9]+)\.html" module="BgManager" action="deleteBgBody" vars="id"/>
+    
+    <route url="/admin/actiongroupedpage.html" module="BgManager" action="results" />
+</routes>

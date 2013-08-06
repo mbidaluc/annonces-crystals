@@ -1,0 +1,17 @@
+
+<routes>
+    <route url="/poster-une-annonce-publicitaire.html" module="Adversiting" action="create"/>
+    <route url="/trancheshoraires.html" module="Adversiting" action="getTranches"/>
+    
+    <route url="/mesannoncespub.html" module="Adversiting" action="mesannoncespub"/>
+     
+     <route url="/mesannoncespub-edit-([0-9]+).html" module="Adversiting" action="mesannoncespub"/>
+     <route url="/mesannoncespub-delete-([0-9]+).html" module="Adversiting" action="delete" vars="id"/>
+     <route url="/mesannoncepub-desactivate-([0-9]+)\.html" module="Adversiting" action="desactivateannoncepub" vars="id"/>
+	 
+	 <route url="/mesannoncespub-updateclick.html" module="Adversiting" action="updateClick"/>
+	 <route url="/pleintemps.html" module="Adversiting" action="pricePleinTemps"/>
+     
+      <route url="/mesannocespubexpirees.html" module="Adversiting" action="mesAnnoncesPubExpirees"/>
+</routes>
+                        

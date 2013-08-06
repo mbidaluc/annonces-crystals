@@ -1,0 +1,670 @@
+[18-Apr-2012 14:56:47] PHP Warning:  require(/home/patson80/public_html/kristoclic/../Library/autoload.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/frontend.php on line 5
+[18-Apr-2012 14:56:47] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/../Library/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/frontend.php on line 5
+[18-Apr-2012 15:02:43] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:32
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 32
+[18-Apr-2012 15:03:38] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:32
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 32
+[18-Apr-2012 15:07:00] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:32
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 32
+[18-Apr-2012 15:07:05] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:32
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 32
+[18-Apr-2012 15:07:45] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:32
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 32
+[18-Apr-2012 15:22:14] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:27:32] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:31:40] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:31:44] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:32:20] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:32:38] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:35:24] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:35:24] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:35:24] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:35:24] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../Applications/Frontend/Templates/layout.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:38:15] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:39:03] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:39:03] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:39:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../Applications/Frontend/Templates/layout.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:15] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:15] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:15] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../Applications/Frontend/Templates/layout.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:16] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:16] PHP Warning:  require(../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:16] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '../Applications/Frontend/Templates/layout.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:38] PHP Warning:  require(/home/patson80/public_html/kristoclic/Library../Applications/Frontend/Templates/layout.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:41:38] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/Library../Applications/Frontend/Templates/layout.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 48
+[18-Apr-2012 15:42:43] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:42:55] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:43:04] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:44:36] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:44:42] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:45:55] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:46:01] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:46:06] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:46:48] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:48:09] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:49:20] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:49:30] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:50:29] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[18-Apr-2012 15:56:54] PHP Warning:  require(/home/patson80/public_html/kristoclic/Library/../Library/PHPMailer/PHPMailer.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/autoload.php on line 12
+[18-Apr-2012 15:56:54] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/Library/../Library/PHPMailer/PHPMailer.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/autoload.php on line 12
+[19-Apr-2012 07:13:39] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "Show" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:31
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(25): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 31
+[19-Apr-2012 07:19:12] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "Show" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:31
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(25): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 31
+[19-Apr-2012 07:26:22] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[19-Apr-2012 12:27:13] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[20-Apr-2012 21:03:13] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "Show" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:31
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(25): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 31
+[20-Apr-2012 21:03:37] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "Show" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:31
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(25): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 31
+[21-Apr-2012 12:29:38] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[21-Apr-2012 12:31:41] PHP Warning:  require(/home/patson80/public_html/kristoclic/../Library/autoload.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/backend.php on line 5
+[21-Apr-2012 12:31:41] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/../Library/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/backend.php on line 5
+[23-Apr-2012 08:01:44] PHP Warning:  DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: Document is empty in /home/patson80/public_html/kristoclic/Applications/Frontend/Config/routes.xml, line: 1 in /home/patson80/public_html/kristoclic/Library/Router.class.php on line 14
+[23-Apr-2012 08:01:44] PHP Warning:  DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: Start tag expected, '&lt;' not found in /home/patson80/public_html/kristoclic/Applications/Frontend/Config/routes.xml, line: 1 in /home/patson80/public_html/kristoclic/Library/Router.class.php on line 14
+[23-Apr-2012 08:01:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patson80/public_html/kristoclic/Library/Router.class.php:14) in /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php on line 17
+[23-Apr-2012 09:25:33] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/patson80/public_html/kristoclic/Library/DbFactory.class.php:27
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/DbFactory.class.php(27): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/patson80/public_html/kristoclic/Library/BackController.class.php(21): Library\DbFactory::getPdoInstance()
+#2 /home/patson80/public_html/kristoclic/Library/Router.class.php(26): Library\BackController->__construct(Object(Applications\Frontend\FrontendApplication), 'Index', 'index')
+#3 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(24): Library\Router->getController()
+#4 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#5 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/DbFactory.class.php on line 27
+[23-Apr-2012 09:28:44] PHP Warning:  imagepng() [<a href='function.imagepng'>function.imagepng</a>]: Unable to open '/home/patson80/public_html/kristoclic/web/upload/captcha/230412_092844629542012.png' for writing: No such file or directory in /home/patson80/public_html/kristoclic/Library/Classe/Form/FormCaptcha.class.php on line 162
+[23-Apr-2012 09:28:44] PHP Warning:  fopen(/home/patson80/public_html/kristoclic/web/upload/captcha/230412_092844629542012.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/Classe/Form/FormCaptcha.class.php on line 173
+[23-Apr-2012 09:31:36] PHP Warning:  imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Could not read font in /home/patson80/public_html/kristoclic/Library/Classe/Form/FormCaptcha.class.php on line 146
+[23-Apr-2012 09:32:33] PHP Warning:  imagettftext() [<a href='function.imagettftext'>function.imagettftext</a>]: Could not read font in /home/patson80/public_html/kristoclic/Library/Classe/Form/FormCaptcha.class.php on line 146
+[23-Apr-2012 10:13:03] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[23-Apr-2012 10:13:45] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[23-Apr-2012 12:44:58] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[23-Apr-2012 13:09:51] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[23-Apr-2012 13:16:31] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[23-Apr-2012 16:57:12] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[24-Apr-2012 06:07:12] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(27): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 33
+[24-Apr-2012 06:16:24] PHP Fatal error:  Call to undefined method Library\HttpRequest::resquestIp() in /home/patson80/public_html/kristoclic/Applications/Modules/Users/Frontend/Controller/UsersController.class.php on line 111
+[24-Apr-2012 08:17:52] PHP Fatal error:  Call to undefined method Applications\Modules\Encheres\Models\Encheres::getMeneur() in /home/patson80/public_html/kristoclic/Applications/Modules/Index/Frontend/Views/Index.tpl.php on line 43
+[24-Apr-2012 08:23:41] PHP Fatal error:  Call to undefined function pluriel() in /home/patson80/public_html/kristoclic/Applications/Frontend/Templates/layout.php on line 32
+[02-May-2012 17:05:53 UTC] PHP Fatal error:  Call to undefined method Applications\Modules\Encheres\Models\Encheres::getPseudo() in /home/patson80/public_html/kristoclic/Applications/Modules/Index/Frontend/Views/Index.tpl.php on line 38
+[02-May-2012 17:07:52 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "index" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:31
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Frontend/FrontendApplication.class.php(25): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/frontend.php(8): Applications\Frontend\FrontendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 31
+[02-May-2012 17:10:12 UTC] PHP Fatal error:  Call to a member function getHourOpen() on a non-object in /home/patson80/public_html/kristoclic/Applications/Frontend/Templates/layout.php on line 26
+[02-May-2012 17:48:23 UTC] PHP Fatal error:  Cannot make non abstract method Library\Manager::findById() abstract in class Applications\Modules\Users\Models\UsersManager in /home/patson80/public_html/kristoclic/Applications/Modules/Users/Models/UsersManager.class.php on line 12
+[02-May-2012 17:50:35 UTC] PHP Fatal error:  Cannot make non abstract method Library\Manager::findById() abstract in class Applications\Modules\Users\Models\UsersManager in /home/patson80/public_html/kristoclic/Applications/Modules/Users/Models/UsersManager.class.php on line 12
+[02-May-2012 18:00:13 UTC] PHP Fatal error:  Call to undefined method Library\HttpRequest::redirect() in /home/patson80/public_html/kristoclic/Applications/Modules/Users/Frontend/Controller/UsersController.class.php on line 125
+[02-May-2012 18:17:05 UTC] PHP Warning:  require(/home/patson80/public_html/kristoclic/../Library/autoload.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/backend.php on line 5
+[02-May-2012 18:17:05 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/../Library/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/backend.php on line 5
+[02-May-2012 18:21:35 UTC] PHP Warning:  require(/home/patson80/public_html/kristoclicLibrary/autoload.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/backend.php on line 5
+[02-May-2012 18:21:35 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclicLibrary/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/backend.php on line 5
+[02-May-2012 18:23:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 18:24:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 18:33:11 UTC] PHP Fatal error:  Class Applications\Modules\Cms\Models\CmsManager_PDO contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (Applications\Modules\Cms\Models\CmsManager::getCms, Applications\Modules\Cms\Models\CmsManager::addCms, Applications\Modules\Cms\Models\CmsManager::updateCms, ...) in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Models/CmsManager_PDO.class.php on line 12
+[02-May-2012 18:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 18:34:30 UTC] PHP Fatal error:  Class Applications\Modules\Cms\Models\CmsManager_PDO contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (Applications\Modules\Cms\Models\CmsManager::getCms, Applications\Modules\Cms\Models\CmsManager::addCms, Applications\Modules\Cms\Models\CmsManager::updateCms, ...) in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Models/CmsManager_PDO.class.php on line 12
+[02-May-2012 18:34:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 18:40:40 UTC] PHP Fatal error:  Class Applications\Modules\Cms\Models\CmsManager_PDO contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (Applications\Modules\Cms\Models\CmsManager::getCms, Applications\Modules\Cms\Models\CmsManager::addCms, Applications\Modules\Cms\Models\CmsManager::updateCms, ...) in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Models/CmsManager_PDO.class.php on line 12
+[02-May-2012 18:41:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 18:56:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[02-May-2012 22:15:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[03-May-2012 07:58:26 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[03-May-2012 07:58:40 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[03-May-2012 21:20:32 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[05-May-2012 08:56:18 UTC] PHP Warning:  require(/home/patson80/public_html/kristoclic/Library/../Library/PHPMailer/PHPMailer.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/patson80/public_html/kristoclic/Library/autoload.php on line 12
+[05-May-2012 08:56:18 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/patson80/public_html/kristoclic/Library/../Library/PHPMailer/PHPMailer.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/patson80/public_html/kristoclic/Library/autoload.php on line 12
+[06-May-2012 11:48:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[06-May-2012 11:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[06-May-2012 12:01:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patson80/public_html/kristoclic/Library/Classe/Form/Form.class.php on line 107
+[06-May-2012 12:20:14 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[06-May-2012 12:21:53 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[06-May-2012 12:22:39 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[06-May-2012 12:27:31 UTC] PHP Fatal error:  Call to a member function getTitre() on a non-object in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Frontend/Views/Show.tpl.php on line 2
+[06-May-2012 12:58:29 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/patson80/public_html/kristoclic/Library/Manager.class.php on line 22
+[06-May-2012 13:02:19 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[06-May-2012 13:17:32 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[06-May-2012 13:18:11 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[06-May-2012 13:50:29 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[06-May-2012 14:03:02 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 69
+[06-May-2012 14:10:24 UTC] PHP Fatal error:  Class 'Library\BackController' not found in /home/patson80/public_html/kristoclic/Applications/Modules/Index/Frontend/Controller/IndexController.class.php on line 13
+[06-May-2012 14:10:29 UTC] PHP Fatal error:  Class 'Library\BackController' not found in /home/patson80/public_html/kristoclic/Applications/Modules/Contact/Frontend/Controller/ContactController.class.php on line 15
+[09-May-2012 23:37:19 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[10-May-2012 14:16:30 UTC] PHP Fatal error:  Call to a member function getTitre() on a non-object in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Frontend/Views/Show.tpl.php on line 2
+[10-May-2012 14:16:41 UTC] PHP Fatal error:  Call to a member function getTitre() on a non-object in /home/patson80/public_html/kristoclic/Applications/Modules/Cms/Frontend/Views/Show.tpl.php on line 2
+[15-May-2012 12:10:18 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "create" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(29): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 33
+[16-May-2012 23:41:50 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'L'action "create" n'est pas définie sur ce module' in /home/patson80/public_html/kristoclic/Library/BackController.class.php:33
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(29): Library\BackController->execute()
+#1 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#2 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/BackController.class.php on line 33
+[17-May-2012 17:09:22 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:09:31 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:09:32 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:09:57 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:04 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:18 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:19 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:42 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:44 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:44 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:44 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:44 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:45 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:45 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:46 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:46 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:47 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:50 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:10:51 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[17-May-2012 17:11:05 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:11:07 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:11:12 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:14:59 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:03 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:04 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[17-May-2012 17:15:28 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:32 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:34 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:34 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:35 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:35 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:35 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:35 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:36 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:37 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:39 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:44 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:15:58 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:07 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:13 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:16 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:20 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:21 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:21 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:21 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:22 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:22 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:23 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:25 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:25 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:25 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:28 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:32 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 17:16:32 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'La vue spécifiée n'existe pas' in /home/patson80/public_html/kristoclic/Library/Page.class.php:28
+Stack trace:
+#0 /home/patson80/public_html/kristoclic/Library/HttpResponse.class.php(34): Library\Page->getGeneratedPage()
+#1 /home/patson80/public_html/kristoclic/Applications/Backend/BackendApplication.class.php(31): Library\HttpResponse->send()
+#2 /home/patson80/public_html/kristoclic/backend.php(8): Applications\Backend\BackendApplication->run()
+#3 {main}
+  thrown in /home/patson80/public_html/kristoclic/Library/Page.class.php on line 28
+[17-May-2012 17:16:37 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 21:41:59 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 21:42:01 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 21:42:03 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-May-2012 21:42:04 UTC] PHP Warning:  PHP Startup: soap: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0

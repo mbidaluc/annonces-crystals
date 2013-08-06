@@ -1,0 +1,11 @@
+
+<routes>
+    <route url="/admin/listpartenaire.html" module="Partenaires" action="partenaires"></route>
+    <route url="/admin/partenaire-edit-([0-9]+)\.html" module="Partenaires" action="partenairescreate" vars="id"/>
+    <route url="/admin/partenaire-edit.html" module="Partenaires" action="partenairescreate"></route>
+    <route url="/admin/partenaire-delete-([0-9]+)\.html" module="Partenaires" action="delete" vars="id"/>
+    <route url="/admin/partenaire-abonne-([0-9]+)\.html" module="Partenaires" action="listAbonnes" vars="id"/>
+    
+    <route url="/admin/tababonnes.html" module="Partenaires" action="tabAbonnes" />
+</routes>
+                        

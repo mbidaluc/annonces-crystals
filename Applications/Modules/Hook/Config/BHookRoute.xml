@@ -1,0 +1,8 @@
+
+<routes>
+    <route url="/admin/position.html" module="Hook" action="hook"/>
+    <route url="/admin/position-add.html" module="Hook" action="create"/>
+    <route url="/admin/position-edit-([0-9]+)\.html" module="Hook" action="create" vars="id"/>
+    <route url="/admin/position-delete-([0-9]+)\.html" module="Hook" action="delete" vars="id"/>
+</routes>
+                        

@@ -1,0 +1,558 @@
+/* 
+    Document   : Annonce
+    Created on : 8 févr. 2013, 06:31:38
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.create_annonce fieldset{
+    float: left;
+    width: 61%;
+}
+.create_annonce .block_image{
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    width: 38%;
+}
+.create_annonce .text_area{
+    clear: both;
+    float: none;
+    width: auto;
+}
+#id_texte{
+    height: 171px;
+    max-height: 171px;
+    overflow: auto
+}
+.top_photos{
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    border-radius: 8px 8px 8px 8px;
+    padding: 4% 2% 2%;
+}
+
+.top_photos span{
+    color: #D80074;
+    display: block;
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 3em;
+    margin: 6% 2%;
+    text-align: center;
+}
+#fileimg{
+    display: none;
+}
+.top_photos span.photos{
+    color: #009EDB;
+    font-size: 12px;
+    line-height: 1em;
+    margin: 5%;
+}
+.top_photos .text_image{
+    line-height: 1em;
+}
+#tabsimages_text{
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+#tabsimages{
+    margin-top: 8px;
+}
+#tabsimages li{
+    background: none repeat scroll 0 0 #DCDCDC;
+    float: left;
+    height: 47px;
+    margin-bottom: 6px;
+    margin-right: 4%;
+    overflow: hidden;
+    width: 30.5%;
+}
+#tabsimages li.last_line{
+    margin-right: auto;
+}
+.rpt_photos #tabsimages li span{
+    
+}
+.create_annonce{
+    margin: 2% 2% 1%;
+}
+.create_annonce fieldset label{
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 33%;
+}
+.create_annonce fieldset #conditionss label{
+    width: 66%;
+}
+select, input[type='text']{
+    background: #f3fbf5;
+    border: 1px solid #c1bfbf;
+    width: 50%;
+}
+select{
+    width: 50.7%;
+}
+.create_annonce p{
+    margin: 1% auto 1%;
+}
+#spacePrice{
+    color: #d80074;
+    font-weight: bold;
+    font-size: 18px;
+}
+.rpt_photos span.left_add{
+    background: url('../../../images/left_add_photos.png') no-repeat scroll left top transparent;
+    padding-left: 7px;
+}
+.rpt_photos span.right_add{
+    background: url('../../../images/right_add_photos.png') no-repeat scroll right top transparent;
+    padding-right: 5px;
+}
+.rpt_photos span.add_img{
+    margin: auto;
+    display: inline-block;
+}
+#tabsimages_text input[type='button']{
+    background: url("../../../images/rpt_add_photos.png") repeat-x scroll right top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 23px;
+    line-height: 16px;
+    padding-bottom: 4px;
+}
+.create_annonce p.center{
+    margin: auto;
+    text-align: center;
+}
+/**********button submit*******/
+#content-page .create_annonce form .left-bouton {
+    background: url("../../../images/left_bouton.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 23px;
+    padding-left: 2px;
+    width: 28%;
+    margin: auto auto auto auto;
+}
+#content-page .create_annonce form .right-bouton{
+    background: url("../../../images/right_bouton.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 23px;
+    padding-right: 2px;
+    width: 97%;
+}
+#content-page .create_annonce form input#btnsubmit{
+    background: url("../../../images/center_bouton.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    width: 100%;   
+}
+
+#content-page{
+    border: 1px solid #B8B6B6;
+}
+#detail_annonce #content-page{
+    border: 0 solid #B8B6B6;
+    border-radius: 0 0 0 0;
+}
+#images_annpnce{
+    float: left;
+    margin-right: 1.3%;
+    width: 53.9%;
+}
+#images_annpnce #big_image{
+    
+}
+#images_annpnce #big_image img{
+    width: 100%;
+}
+#wrap_picto_image {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2%;
+}
+#picto_image{
+    height: 51px;
+    overflow: hidden;
+    width: 300%;
+    position:relative;
+    left:0px;
+    top:0px;
+}
+
+#picto_image li {
+    display: inline-block;
+    float: left;
+    width: 60px;
+    margin-right:3px;
+    overflow:hidden;
+}
+.lastest,.first{
+visibility:hidden;
+}
+#picto_image li a{
+    border: 1px solid #CBCACA;
+    display: inline-block;
+    width: 98%;
+}
+#picto_image li a img{
+    width: 100%;
+    height: 45px;
+}
+#infos_annonces{
+    background: url('../../../images/bg_rpt_infos_annonce.png') repeat-x left bottom transparent;
+    border: 1px solid #B8B6B6;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    padding: 3% 1%;
+    width: 40%;
+}
+#infos_annonces li{
+    border-bottom: 1px dotted #85B801;
+    margin-bottom: 3.57%;
+    padding: 0 0 1.6% 2.7%;
+}
+#infos_annonces li.last_item{
+    border-bottom: 0px dotted #85B801;
+}
+#infos_annonces .an_libelle{
+    color: #85B801;
+    margin-right: 4%;   
+}
+#infos_annonces .an_desc{
+    
+}
+.an_bref{
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8.6%;
+    text-align: center;
+}
+.btn_tchat{
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+}
+.left_tchat{
+    background: url("../../../images/left_tchat.png") no-repeat scroll left center transparent;
+    display: inline-block;
+    margin: auto;
+    padding-left: 7px;
+}
+.right_tchat{
+    background: url("../../../images/right_tchat.png") no-repeat scroll right center transparent;
+    padding-right: 7px;
+}
+.rpt_tchat{
+    background: url("../../../images/rpt_tchat.png") repeat-x scroll left center transparent;
+    border: medium none;
+    cursor: pointer;
+	padding: 0px;
+	margin:0;
+}
+#block_btn{
+	text-align: center;
+}
+#block_btn .online{
+    display: block;
+    margin-top: 3px;
+}
+#avis_annonces{
+    clear: both;
+}
+#avis_annonces li{
+    display: inline-block;
+    float: left;
+    line-height: 1.2em;
+    margin: 1% 1% 2% auto;
+    padding-left: 5%;
+    width: 18%;
+}
+#avis_annonces li a{
+    color: #0070cc;
+    font-size: 11px;
+    text-decoration: none;
+}
+#avis_annonces .repondre_annonce{
+    background: url("../../../images/picto_response.jpg") no-repeat scroll left center transparent;
+    width: 15%;
+}
+#avis_annonces .abonnement_news{
+    background: url("../../../images/picto_response.jpg") no-repeat scroll left center transparent;
+}
+#avis_annonces .send_to_friend{
+    background: url("../../../images/picto_send_to.jpg") no-repeat scroll left center transparent;
+    width: 28%;
+}
+#avis_annonces .signaler_abus{
+    background: url("../../../images/picto_abus.jpg") no-repeat scroll left center transparent;
+    width: 12%;
+}
+#tab_description{
+    clear: both;
+    margin: 2.6% auto auto;   
+}
+.title_description{
+    background: none repeat scroll 0 0 #85B801;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 11px;
+    padding: 1% 7.5% 1% 2%;
+}
+.content_description{
+    border: 1px solid #85B801;
+    font-size: 12px;
+    padding: 2%;
+    height: 183px;
+}
+#other_annonce{
+    margin: 2% auto auto;
+      padding-bottom: 3%;
+}
+#other_annonce h4{
+    border-bottom: 1px solid #CCCCCC;
+    color: #707070;
+    font-size: 14px;
+    padding: 0 0 1% 2%;
+}
+#other_annonce .see_other_annonce, .plus_detail{
+    background: url("../../../images/see_more.jpg") no-repeat scroll left center transparent;
+    clear: both;
+    color: #85B801;
+    float: right;
+    font-size: 12px;
+    padding-left: 12px;
+    text-decoration: none;
+}
+#detail_annonce .pagination_bottom{display: none;}
+gallery.custom-state-active { background: #eee; }
+	.gallery li { float: left; width: 70px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+	.gallery li a { float: right; }
+	.gallery li img { width: 100%; }
+    
+/*****list de mes annnonces**************/
+#content-page .table .listing tbody tr td.prixtot{
+    color: #D80074;
+    font-size: 11px;
+    font-weight: bold;   
+}
+#content-page .listing tbody tr {
+      
+}
+/*************fin du css listing*********/
+/*********   modifier mes annonces   ****/
+#content-page .create_annonce form #fileimgupdate{
+    visibility: collapse;
+    width: 33.5%;
+}
+#content-page .create_annonce form p input#btnModify{
+    background: url("../../../images/bg_forn_submit1.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 2.25em;
+    margin: auto auto auto 0%;
+    text-align: center;
+    width: 15em;
+}
+/********** fin modif annonces**********/
+#content-page  ul .bottom_desc .details{
+    margin-bottom: 1%;
+    margin-top: 4%;
+    width: 78%;
+}
+.wrap_date1 {    
+    font-size: 12px;
+    margin-right: 12%;
+}
+.wrap_price, .wrap_date1 {
+    color: #009EDB;
+}
+.item-elt .see_more1 {
+    background: url("../../../images/see_more.jpg") no-repeat scroll left center transparent;
+    color: #85B801;
+    font-size: 12px;
+    padding-left: 11px;
+}
+#content-page ul .bottom_desc .details .delet img{
+    margin-left: 20%;
+}
+#content-page ul .details .modif img{
+    margin-left: 5%;
+}
+#content-page ul .details .wrap_date1 .red{
+    color:#E2001A;
+    font-weight: bold;
+}
+#content-page .table #listing_annonce{padding-left: 0.1em;}
+#content-page .table{    
+    height: 695px;
+    overflow: auto;
+}
+/******** detail de l'annonce *******/
+#detail_annonce{}
+#other_annonce ul li{
+    float: left;
+    list-style: none;
+    padding: 2% 1.5% 0.9% 0;
+    text-align: justify;
+    width: 18.4%;
+}
+#other_annonce ul li a{
+    color: #009EDC;
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+}
+#other_annonce ul li a img{
+    width: 100%;
+}
+#other_annonce ul li a.same_img{
+    height: 67px;
+}
+#other_annonce ul li a.same_title{
+    
+}
+/*******  div=annonces contact ********/
+.clear{clear: both;}
+#detail_annonce #annones_contact { display: block; border: 1px solid #AD1515;padding: 2%; height: 124px;}
+#detail_annonce #annones_contact #annonces_logo_details{float: left;width: 30%;}
+#detail_annonce #annones_contact #annonces_logo_details img{margin-top: 25%;}
+#detail_annonce #annones_contact #annonces_detais_contact{float: right; width: 64%;}
+#detail_annonce #annones_contact #annonces_detais_contact p{text-align: center; padding-top: 22px}
+#detail_annonce #annones_contact #annonces_detais_contact p.wildweb{font-size: 22px; color:#000;}
+#detail_annonce #annones_contact #annonces_detais_contact p.annonces_pub{ color:#000;}
+#detail_annonce #annones_contact #annonces_detais_contact p.number_annonces{color:#000;}
+
+
+#detail_annonce .ui-dialog form label {
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 34%;
+}
+#detail_annonce .ui-dialog form p {
+    margin: 1.5% auto;
+}
+#detail_annonce .ui-dialog form p input {
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 50%;
+}
+#detail_annonce .ui-dialog form p .envoie1 {
+    background: url("../Themes/annonces/images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 45%;
+    text-align: center;
+    width: 11em;
+}
+#detail_annonce .ui-dialog form .pop_up_text{
+    background-color: #F3FBF5;
+    border: 1px solid #C1BFBF;
+    height: 93px;
+    margin-left: 35%;
+    margin-top: 0px;
+    overflow: hidden;
+    width: 50%;
+}
+/******pop up paiement*******/
+.ui-dialog #ModalFormPaiement form label {
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 33%;
+}
+.ui-dialog #ModalFormPaiement form p {
+    margin: 1.5% auto;
+}
+ .ui-dialog form p input {
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 50%;
+}
+ .ui-dialog #ModalFormPaiement form p .envoie1 {
+    background: url("../Themes/annonces/images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 45%;
+    text-align: center;
+    width: 11em;
+}
+/********pop up abus,amis..,***************/
+#detail_annonce .fancybox-inner form label {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    width: 34%;
+}
+#detail_annonce .fancybox-inner form p {
+    margin: 1.5% auto;
+}
+#detail_annonce .fancybox-inner form p input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #A30D0D;
+    color: #A30D0D;
+    font-family: verdana;
+    font-size: 12px;
+    padding: 5px;
+    width: 50%;
+}
+#detail_annonce .fancybox-inner form p .envoie1 {
+    background: url("../../../images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 45%;
+    text-align: center;
+    width: 11em;
+}
+#wrap_picto_image #prev, #wrap_picto_image #next{
+    display: block;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 6%;
+}
+#wrap_picto_image #wrap_picto{
+    width: 88%;
+    overflow: hidden;
+    float: left;
+}
+
+.descriptif{
+    height: 46px;
+}
+

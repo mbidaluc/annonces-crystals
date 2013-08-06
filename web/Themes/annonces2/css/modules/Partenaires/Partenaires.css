@@ -1,0 +1,112 @@
+/* 
+    Document   : PaiementAPI
+    Created on : 14 févr. 2013, 10:29:09
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+*{
+    font-size: 12px;
+    font-family: verdana,arial;
+}
+.table{
+
+}
+#content-page .table .error{
+    padding-left: 1em !important;
+    text-align: center;
+}
+#content-page .table form{
+    margin: 2% 2% 1%;
+}
+#content-page .table form #registerInfos{
+    margin-bottom: 1em;
+}
+#content-page .table form #registerInfos,.partenaires {
+    border-bottom: 1px dashed #434343 ;
+}
+#content-page .table form .partenaires a img{
+    vertical-align: middle;   
+}
+
+#content-page .table form .partenaires {
+     padding: 1em;
+}
+#content-page .table form #registerInfos p{
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+}
+#content-page .table form #registerInfos p label{
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 25%;
+}
+#content-page .table form #registerInfos p input[type="text"]{
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 45%;
+}
+#content-page .table form p.center{
+    margin: auto;
+    text-align: center;
+}
+#content-page .table form p.center .left-bouton{
+    background: url("../../../images/left_bouton.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 23px;
+    margin: auto;
+    padding-left: 2px;
+    width: 28%;
+}
+#content-page .table form p.center .left-bouton .right-bouton{
+    background: url("../../../images/right_bouton.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 23px;
+    padding-right: 2px;
+    width: 97%;
+}
+#content-page .table form p.center .left-bouton .right-bouton input#submitpartner{
+    background: url("../../../images/center_bouton.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    width: 100%;
+}
+.partenaires a{
+    color: #626262;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.leftpartenaires{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+}
+.rightpartenaires{
+    float: left;
+    width: 68%;
+}
+.partenaires h4{
+    padding: 0 0 5px;
+}
+.partenaires .leftpartenaires a{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 80%;
+}
+.partenaires .leftpartenaires a img{
+    width: 90%;
+}

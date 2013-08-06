@@ -1,0 +1,44 @@
+/* 
+    Document   : PaiementAPI
+    Created on : 14 févr. 2013, 10:29:09
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+*{
+    font-size: 12px;
+    font-family: verdana,arial;
+}
+.table{
+
+}
+.table p{
+    font-size: 14px;
+    font-family: verdana,arial; 
+    color: #434343;
+    font-style: italic;
+    margin: 1em;
+}
+.table .paiement{
+    border-bottom: 1px dashed #434343;
+}
+.table .last{border-bottom: none;}
+.table .paiement a{
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+}
+.table .paiement a img{
+    vertical-align: middle;
+    margin-right: 1em;
+}
+.table .paiement a span{
+    font-size: 14px;
+    color: #434343;
+}
+

@@ -1,0 +1,247 @@
+/* 
+    Document   : Utilisateurs
+    Created on : 7 févr. 2013, 13:11:30
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Page de connexion et deconnexion */
+
+#content-page #connexion{
+    border-bottom: 1px dashed #c1bfbf;
+}
+#content-page #connexion .create{
+    float: left;
+    width: 50%;
+}
+#connexion fieldset{
+    margin:10px;
+}
+#content-page #connexion .con-login{
+    float: right;
+    width: 50%;
+}
+#connexion fieldset legend{
+    margin-bottom: 10px;
+}
+#connexion .create fieldset{
+    border-right: 1px dashed #c1bfbf;
+}
+#connexion fieldset legend span{
+    color: #00af4c;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 50px;
+}
+#connexion p{
+    font-family: verdana;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#connexion .content-input input{
+    border: 1px solid #c1bfbf;
+    width: 85%;
+    margin-bottom: 4%;
+}
+#connexion .left-bouton{
+    background: url("../../../images/left_bouton.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 24px;
+    padding-left: 5px;
+    width: 60%;
+}
+#connexion .right-bouton{
+    background: url("../../../images/right_bouton.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 24px;
+    padding-right: 5px; 
+    width: 97%;
+}
+#connexion .wrap_btn .center-bouton{
+    background: url("../../../images/center_bouton.png") repeat-x top left;
+    height: 24px;
+    width: 100%; 
+    border: none;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 12px;
+    color:#fff;
+    cursor: pointer;
+}
+#connexion .forgot{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#connexion .forgot a{
+    font-family: verdana;
+    font-size: 12px;
+    color:#626262;
+    text-decoration: none;
+}
+#connexion .content-input{
+    min-height: 100px;
+}
+.wrap_btn{text-align: center;}
+
+/*inscription*/
+#content-page .table{
+    background: url("../../../images/bg_form_back1.png") repeat-x scroll transparent; 
+    height: 704px;
+    margin-top: 2px;
+}
+#content-page .table form{
+    margin-top: 3%;
+}
+#content-page .table form p{
+    margin-left: 3%;
+    padding-top: 3%;    
+}
+#content-page .table form p input{
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 50%;
+}
+/**bouton modification**/
+#content-page .table form p input.modifier{
+    background: url("../../../images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 40%;
+    text-align: center;
+    width: 11em;
+}
+/***fin modifs**/
+#content-page .table form p #id_password,#id_verif_mdp{
+    margin-left: 12px;
+}
+#content-page .table form input.envoie{
+    background: url("../../../images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 45%;
+    text-align: center;
+    width: 11em;
+    cursor: pointer;
+}
+#content-page .table form label{
+    display: inline-block;
+    font-size: 12px;
+    width: 25%;
+}
+
+#content-page .table form submit{
+    margin-left: 44px;    
+}
+#content-page .table form #id_infos_complementaires{
+    background-color: #F3FBF5;
+    border: 1px solid #C1BFBF;
+    height: 93px;
+    margin-left: 28%;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 50%;
+}
+#content-page .table .directive{
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 12px;
+    text-indent: 15px;
+}
+#content-page .table p.rapel{
+    font-size: 11px;
+    margin-top: 3%;
+    text-indent: 15px;
+}
+#content-page .table p span{
+    color: #e40b0b;
+}
+#content-page .table form label.textarea_label {
+   width: 40%;
+}
+
+/*mot de passe oublié*/
+#center-page #content-page #connexion h2{
+    color: #00AF4C;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#center-page #content-page #connexion form fieldset label+input {
+    border: 1px solid #C1BFBF;
+    margin-bottom: 0%;
+    width: 51%;
+    background:none;
+    height: auto;
+    color: #000000;
+    font-weight: normal;
+    margin-left: 0;
+}
+#center-page #content-page #connexion form fieldset+input {
+    border: 1px solid #C1BFBF;
+    width: 30%;
+    margin-bottom: 1%;
+    background: url("../../../images/bg_forn_submit1.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    height: 2.25em;
+    width: 15em;
+    vertical-align: middle;
+    margin-left: 35%;
+}
+#center-page #content-page #connexion form .infos{
+    color: #e40b0b;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#content-page #connexion {
+    border-bottom: none;
+}
+/******lien du compte********/
+
+/*
+#header #search-zone .input1{
+    background: url("../images/left_bouton.png") no-repeat scroll left top transparent;
+    display: inline-block;
+   padding-left: 6px;
+}
+#header #search-zone .input2{
+    background: url("../images/bg_btn_submit_right.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    padding-right: 6px;
+}
+#header #search-zone .input1 .input2 input{
+    background: url("../images/bg_btn_submit_midle.png") repeat-x scroll 0 0 transparent;
+    height: 26px;
+    text-align: center;
+    font-size: 12px;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+}*/
+#content-page #wrapper-lien ul{
+    width: 40%;
+}
+#content-page #wrapper-lien ul li{
+    padding: 5%;
+    height: 23%
+}
+#content-page #wrapper-lien a{
+     text-align: center;
+    font-size: 1.2em;
+    color: #626262;
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+ }

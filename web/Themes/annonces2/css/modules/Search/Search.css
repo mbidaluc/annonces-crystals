@@ -1,0 +1,14 @@
+/* 
+    Document   : Search
+    Created on : 6 mai 2013, 11:22:56
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#content-page{
+    border: none;
+}

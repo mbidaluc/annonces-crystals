@@ -1,0 +1,38 @@
+/* 
+    Document   : BgManager
+    Created on : 20 juin 2013, 11:23:27
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#content-cms-page{
+    padding: 10px;
+    text-align: justify;
+}
+#content-cms-page h1,#content-cms-page h2, #content-cms-page h3, #content-cms-page h4{
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+#content-cms-page h2{font-size: 16px; line-height: 22px;}
+#content-cms-page h3{font-size: 15px; line-height: 19px;}
+#content-cms-page h4{font-size: 14px; line-height: 17px;}
+#content-cms-page p{
+    line-height: 20px;
+    margin-bottom: 5px;
+    text-indent: 25px;
+}
+#content-cms-page ol li,#content-cms-page ul li{
+    line-height: 17px;
+    list-style: disc outside none;
+    margin: 5px auto;
+}
+#content-cms-page ol, #content-cms-page ul{
+    padding: 0 0 0 20px;
+}
+#content-cms-page ol,#content-cms-page ol li{list-style: decimal outside none}

@@ -1,0 +1,5 @@
+<routes>
+    <route url="/listpartenaires.html" module="Partenaires" action="partenaires"></route>
+	<route url="/listingpartenaires.html" module="Partenaires" action="partenairesList"></route>
+</routes>
+          

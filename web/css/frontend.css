@@ -1,0 +1,896 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+
+:focus {
+	outline:0;
+}
+
+body {
+	line-height:1;
+	color:black;
+	background:url(../images/fond.jpg) left top repeat-x;
+	background-color:#4e4e4e;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+u {
+text-decoration:none;
+background:#FFFF00;
+padding-right:2px;
+padding-left:2px;
+}
+
+div#global{
+	width:1080px;
+	text-align:left;
+	margin:0 auto;
+}
+
+div#global div#logo {
+	float:left;
+	width:270px;
+	height:130px;
+	background:url(../images/logo.jpg) left top no-repeat;
+}
+
+div#global div#header {
+	margin-top:-96px;
+	float:left;
+	width:686px;
+	height:319px;
+	background:url(../images/header.gif) left top no-repeat;
+    position: relative;
+}
+#houropen{
+    font-size: 25px;
+    left: 342px;
+    position: absolute;
+    top: 185px;   
+}
+div#global div#header  div#inscription {
+	margin:234px 0 0 266px;
+}
+
+div#global div#header  div#inscription a {
+	color:#fff;
+	font-size:23px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+div#global div#header  div#connected {
+    color: #FFFFFF;
+    font-weight: bold;
+    left: 250px;
+    position: absolute;
+    top: 230px;
+    width: 430px;
+}
+
+div#global div#fb-icon {
+	margin-top:40px;
+	margin-left:20px;
+	float:left;
+	width:72px;
+	height:76px;
+	background:url(../images/fb-icon.png) left top no-repeat;
+	padding:0;
+}
+
+div#global div#tw-icon {
+	margin-left:20px;
+	float:left;
+	width:72px;
+	height:76px;
+	background:url(../images/tw-icon.png) left top no-repeat;
+	padding:0;
+}
+
+div#global div#container {
+	background-color:#fff;
+	margin-top:110px;
+	padding:0;
+}
+
+div#global div#container div#contenu {
+	margin:0;
+	padding:0;
+}
+
+div#global div#container div#contenu div#menu ul {
+	margin:0 0 0 90px;
+	padding:0;
+	list-style:none;
+}
+
+div#global div#container div#contenu div#menu ul li {
+	float:left;
+  	width:150px;
+	height:33px;
+	background:url(../images/onglet.jpg) left top no-repeat;
+	color:#6c6c6a;
+	text-align:center;
+	padding-top:10px;
+	margin:0;
+	display:inline
+}
+
+div#global div#container div#contenu div#menu ul li a{
+	text-decoration:none;
+	color:#000;
+	width:150px;
+}
+
+div#global div#container div#contenu div#menu ul li.active{
+	text-decoration:none;
+	color:#fff;
+  	width:150px;
+	height:33px;
+	background:url(../images/onglet_active.jpg) left top no-repeat;
+}
+
+div#global div#container div#contenu div#menu ul li.active a{
+	color:#fff;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#out-menu {
+	float:left;
+	background-color:#768f1a;
+	width:1080px;
+	height:5px;
+	margin-top:-12px;
+	padding:0;
+}
+
+div#global div#container div#contenu div#page {
+	float:left;
+	width:760px;
+	background-color:#f5f8e5;
+	margin:20px 10px 10px 10px;
+	padding:10px;
+}
+div#global div#container div#contenu div.number-column1{
+    width:1040px !important;
+    background: #F5F8E5;
+}
+
+div#global div#container div#contenu div#page div#une {
+	float:left;
+	width:331px;
+	height:375px;
+	background:url(../images/une.jpg) left top no-repeat;
+	margin:0 27px 14px 18px;
+	padding:0;
+}
+
+div#global div#container div#contenu div#page div#une .prixu{
+	float:left;
+	color:#d99c8d;
+	font-size:12px;
+	font-weight:bold;
+	margin:25px 0 0 30px;
+}
+
+div#global div#container div#contenu div#page div#une .encheriru{
+	text-align:right;
+	margin:26px 26px 0 0;
+}
+
+div#global div#container div#contenu div#page div#une .meneuru{
+	color:#a4c133;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#page div#une .pseudou{
+	color:#5d5d5d;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#page div#une .titreu, .imageu {
+	color:#5a5a5a;
+	margin:16px 0 0 0;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#page .temps {
+	color:#dd692e;
+	margin:12px 0 0 0;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#page .enchere {
+	color:#d8672b;
+	margin:16px 0 0 0;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+}
+div#global div#container div#contenu div#page .enchere_g{
+    color:green;
+}
+div#global div#container div#contenu div#page .encherir {
+	margin:12px 0 2px 0;
+	text-align:center;
+}
+
+div#global div#container div#contenu div#page .infos {
+	margin:10px 0 0 0;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#page .prix {
+	color:#d99c8d;
+    display: block;
+}
+
+div#global div#container div#contenu div#page .meneur {
+	color:#a4c133;
+}
+
+div#global div#container div#contenu div#page .pseudo {
+	color:#5d5d5d;
+}
+
+div#global div#container div#contenu div#page .cours {
+	float:left;
+	width:184px;
+	height:377px;
+	background:url(../images/cours.jpg) left top no-repeat;
+	margin:0 0 14px 4px;
+}
+
+div#global div#container div#contenu div#page .venir {
+	float:left;
+	width:184px;
+	height:377px;
+	background:url(../images/venir.jpg) left top no-repeat;
+	margin:0 0 14px 4px;
+}
+
+div#global div#container div#contenu div#page .termine {
+	float:left;
+	width:184px;
+	height:300px;
+	background:url(../images/termine.jpg) left top no-repeat;
+	margin:0 0 14px 4px;
+}
+
+div#global div#container div#contenu div#page .iconsu{
+	margin:6px 0 67px 210px;
+}
+
+div#global div#container div#contenu div#page .icons{
+	margin:-2px 0 54px 103px;
+}
+
+div#global div#container div#contenu div#page .iconu{
+	float: left;
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	background: url(../images/iconu.png) left top no-repeat;
+	padding-top: 10px;
+	margin-right: 2px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div#global div#container div#contenu div#page .icon{
+	float: left;
+	text-align: center;
+	width: 26px;
+	height: 26px;
+	background: url(../images/icon.png) left top no-repeat;
+	padding-top: 8px;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+div#global div#container div#contenu div#page .pc{
+	color: #e35434;
+}
+
+div#global div#container div#contenu div#page .rt{
+	color: #718718;
+}
+
+div#global div#container div#contenu div#page .rtb{
+	color: #718718;
+	text-decoration: line-through;
+}
+
+div#global div#container div#contenu div#page .ae{
+	color: #000;
+}
+
+div#global div#container div#contenu div#page .aeb{
+	color:#000;
+	text-decoration:line-through;
+}
+
+div#global div#container div#contenu div#page .titre, .image {
+	color:#5a5a5a;
+	margin:10px 0 0 0;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+.image{
+    width: 184px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.imageu {
+    overflow: hidden;
+    width: 331px;
+}
+.image a{
+    height: 134px;
+    display: block;
+}
+.image img, .imageu img{
+    /*height: 134px;*/
+}
+.imageu img{
+    height: 150px;
+}
+div#global div#container div#contenu div#page .gagne{
+	position:absolute;
+	margin-left:30px;
+	background:url(../images/etiquette-gagne-petite.png) no-repeat;
+	width:65px;
+	height:61px;
+}
+
+div#global div#container div#contenu div#page div#cadre {
+	float:left;
+	width:724px;
+	background:url(../images/page.jpg) left top no-repeat;
+	background-color:#fff;
+	margin:0 0 0 14px;
+}
+
+div#global div#container div#contenu div#page div#cadre h2 {
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	margin:13px 0 0 0px;
+	width:200px;
+	text-align:center;
+    height: 28px;
+}
+
+
+div#global div#container div#contenu div#page div#cadre h4 {
+	color:#524949;
+	font-size:15px;
+	font-weight:bold;
+	margin:14px 0 8px 0;
+}
+
+div#global div#container div#contenu div#page div#texte {
+	color:#636363;
+	font-size:14px;
+	margin:22px 0 14px 16px;
+}
+
+div#global div#container div#contenu div#page div#texte p,
+div#global div#container div#contenu div#page form p{
+	margin:14px 0 6px 0;
+}
+
+div#global div#container div#contenu div#pagefull {
+	float:left;
+	width:1040px;
+}
+
+div#global div#container div#contenu div#pagefull div#detail-prod {
+	float:left;
+	background-color:#fff;
+	width:640px;
+	margin:10px;
+	padding:40px 0 40px 0;
+	text-align:center;
+	border:2px solid #e8f2cd;
+}
+
+div#global div#container div#contenu div#pagefull div#encours-prod {
+	float:left;
+	margin:5px 0 40px 20px;
+	width:331px;
+	height:367px;
+	background:url(../images/detailencours.jpg) left top no-repeat;
+}
+
+div#global div#container div#contenu div#pagefull div#avenir-prod {
+	float:left;
+	margin:5px 0 40px 20px;
+	width:331px;
+	height:367px;
+	background:url(../images/detailavenir.jpg) left top no-repeat;
+}
+
+div#global div#container div#contenu div#pagefull div#termine-prod {
+	float:left;
+	margin:5px 0 40px 20px;
+	width:331px;
+	height:367px;
+	background:url(../images/detailtermine.jpg) left top no-repeat;
+}
+
+div#global div#container div#contenu div#pagefull .icons{
+	margin:0 0 67px 220px;
+}
+
+div#global div#container div#contenu div#pagefull .icon{
+	float:left;
+	text-align:center;
+	width:29px;
+	height:27px;
+	background:url(../images/icon.png) left top no-repeat;
+	padding-top:10px;
+	font-size:9px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#pagefull .pc{
+	color:#e35434;
+}
+
+div#global div#container div#contenu div#pagefull .rt{
+	color:#718718;
+}
+
+div#global div#container div#contenu div#pagefull .rtb{
+	color:#718718;
+	text-decoration:line-through;
+}
+
+div#global div#container div#contenu div#pagefull .ae{
+	color:#000;
+}
+
+div#global div#container div#contenu div#pagefull .aeb{
+	color:#000;
+	text-decoration:line-through;
+}
+
+div#global div#container div#contenu div#pagefull .enchere {
+	color:#d8672b;
+	margin:16px 0 0 0;
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#pagefull .encherir{
+	text-align:center;
+	margin:26px 0 0 0;
+}
+
+div#global div#container div#contenu div#pagefull .infos {
+	text-align:center;
+	margin:30px 0 0 0;
+}
+
+div#global div#container div#contenu div#pagefull .prix {
+	color:#d99c8d;
+}
+
+div#global div#container div#contenu div#pagefull .meneur{
+	color:#a4c133;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#pagefull .pseudo{
+	color:#5d5d5d;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#pagefull .titre {
+	color:#5a5a5a;
+	margin:16px 0 40px 0;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+div#global div#container div#contenu div#pagefull .temps {
+	color:#dd692e;
+	margin:12px 0 0 0;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#pagefull .img-prod {
+    background-color: #FFFFFF;
+    border: 2px solid #E8F2CD;
+    display: table-cell;
+    float: left;
+    height: 90px;
+    margin: 0 0 0 40px;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 110px;
+}
+.img-prod img{
+    width: 105px;
+}
+div#global div#container div#contenu div#pagefull div#gagne{
+	position:absolute;
+	margin:30px 0 0 124px;
+	background:url(../images/etiquette-gagne-grande.png) no-repeat;
+	width:81px;
+	height:79px;
+}
+
+div#global div#container div#contenu div#pagefull div#auto-encherir {
+	float:left;
+	width:338px;
+	height:112px;
+	background:url(../images/auto-encherir.jpg) left top no-repeat;
+	margin:0 0 0 68px;
+}
+
+div#global div#container div#contenu div#pagefull div#auto-encherir .min {
+	margin:80px 0 0 29px;
+	width:30px;
+	text-align:center;
+	color:#636363;
+	border:none;
+}
+
+div#global div#container div#contenu div#pagefull div#auto-encherir .max {
+	margin:80px 0 0 44px;
+	width:30px;
+	text-align:center;
+	color:#636363;
+	border:none;
+}
+
+div#global div#container div#contenu div#pagefull div#auto-encherir .clics {
+	margin:80px 0 0 66px;
+	width:30px;
+	text-align:center;
+	color:#636363;
+	border:none;
+}
+
+div#global div#container div#contenu div#pagefull div#auto-encherir .valider {
+	margin:0 0 0 50px;
+	vertical-align:middle;
+}
+
+div#global div#container div#contenu div#pagefull div#description-prod {
+	float:left;
+	width:607px;
+	height:auto;
+	background:url(../images/description.jpg) left top no-repeat;
+	margin:26px 0 5px 10px;
+	padding:50px 10px 10px 14px;
+	color:#838383;
+	font-size:16px;
+}
+
+div#global div#container div#contenu div#pagefull div#historique-prod {
+	float:left;
+	width:313px;
+	height:auto;
+	background:url(../images/historique-encheres.jpg) left top no-repeat;
+	margin:26px 0 0 46px;
+	font-size:12px;
+	color:#636363;
+}
+
+div#global div#container div#contenu div#pagefull div#historique-prod table, p {
+	margin:50px 0 10px 14px;
+}
+
+div#global div#container div#contenu div#pagefull div#historique-prod td {
+	padding:4px 23px 4px 23px;
+	text-align:center;
+}
+
+div#global div#container div#contenu div#pagefull div#ae-prod {
+	float:right;
+	width:315px;
+	height:auto;
+	background:url(../images/auto-enchere.jpg) left top no-repeat;
+	margin:30px 40px 10px 0;
+	font-size:12px;
+	color:#636363;
+}
+
+div#global div#container div#contenu div#pagefull div#ae-prod table, p {
+	margin:50px 0 10px 29px;
+}
+
+div#global div#container div#contenu div#pagefull div#ae-prod td {
+	padding:4px 12px 4px 12px;
+	text-align:center;
+}
+
+div#global div#container div#contenu div#page .packs table {
+	margin:50px 0 10px 14px;
+}
+
+div#global div#container div#contenu div#page .packs td {
+	padding:14px 23px 4px 23px;
+	vertical-align:middle;
+	font-size:22px;
+	font-weight:bold;
+	color:#000;
+}
+
+div#global div#container div#contenu div#page h3 {
+	margin:40px 0 20px 0;
+	text-align:center;
+	font-size:27px;
+	font-weight:bold;
+	color:#000;
+}
+
+div#global div#container div#contenu div#page div#security {
+	margin:0 20px 0 0;
+	text-align:right;
+}
+
+div#global div#container div#contenu div#page .ast {
+	margin:10px 0 0 24px;
+	color:#000;
+}
+
+div#global div#container div#contenu div#page label {
+    color: #636363;
+    float: left;
+    margin: 0;
+    padding: 5px 10px 0;
+    text-align: right;
+    width: 186px;
+}
+
+div#global div#container div#contenu div#page input,select,textarea {
+	background-color:#FFF;
+	border:1px solid #000;
+	margin:2px 0 0 0;
+}
+
+div#global div#container div#contenu div#right-page {
+    background: url("../images/paiement.jpg") no-repeat scroll left top transparent;
+    float: right;
+    margin: 20px 10px 10px 0;
+    padding: 0;
+    width: 270px;
+}
+
+div#global div#container div#contenu div#right-page div#paiement {
+	width:234px;
+	height:188px;
+	margin:20px 10px 5px 10px;
+	padding:0;
+}
+
+div#global div#container div#contenu div#right-page div#connexion {
+	width:251px;
+	height:108px;
+	background:url(../images/connexion.jpg) left top no-repeat;
+	padding:48px 0 0 14px;
+	color:#f5f8e5;
+	font-size:12px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#right-page div#mon-compte {
+	width:251px;
+	height:202px;
+	background:url(../images/mon-compte.jpg) left top no-repeat;
+	padding:0;
+	color:#f5f8e5;
+	font-size:14px;
+	font-weight:bold;
+}
+
+div#global div#container div#contenu div#right-page div#mon-compte ul{			   
+	padding:64px 0 0 30px;
+	margin:0; 
+	width:220px;
+}	
+
+div#global div#container div#contenu div#right-page div#mon-compte ul li {
+	margin:2px 0 0 0;
+	list-style-type:none;
+}
+
+div#global div#container div#contenu div#right-page div#mon-compte ul li a{
+	text-decoration:none;
+	color:#fff;
+	width:150px;
+}
+
+div#global div#container div#contenu div#right-page div#mon-compte ul li a:hover{
+	text-decoration:underline;
+}
+
+div#global div#container div#contenu div#right-page div#connexion .pseudo {
+	width:145px;
+	height:24px;
+	background:url(../images/pseudo.jpg) left top no-repeat;
+	border:none;
+	color:#989da0;
+	padding:1px 0 0 6px;
+}
+
+div#global div#container div#contenu div#right-page div#connexion .password {
+	width:145px;
+	height:24px;
+	background:url(../images/password.jpg) left top no-repeat;
+	margin:2px 0 0 0;
+	border:none;
+	color:#989da0;
+	padding:1px 0 0 6px;
+}
+
+div#global div#container div#contenu div#right-page div#connexion .reg {
+	margin:0 0 0 90px;
+}
+
+div#global div#container div#contenu div#right-page div#connexion .lost {
+	margin:5px 0 0 58px;
+}
+
+div#global div#container div#contenu div#right-page div#connexion .lost a {
+	color:#fff;
+	text-decoration:none;
+}
+
+div#global div#container div#contenu div#right-page div#fonctionnement {
+    background: url("../images/fonctionnement.png") no-repeat scroll left top transparent;
+    height: 433px;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+div#global div#container div#contenu div#right-page div#fonctionnement div#explications {
+	text-align:center;
+	width:250px;
+	padding:64px 0 0 0;
+	font-size:18px;
+	font-weight:bold;
+	margin:0;
+}
+
+div#global div#container div#contenu div#right-page div#fonctionnement div#explications .redwin {
+	color:#ed3e2d;
+}
+
+div#global div#container div#contenu div#right-page div#contact {
+	width:191px;
+	height:53px;
+	margin:17px 0 0 107px;
+	padding:0;
+}
+
+div#global div#container div#contenu div#publicite {
+	float:left;
+	width:740px;
+	height:102px;
+	background:url('../images/publicite.jpg') left top no-repeat;
+	padding:5px 0 0 5px;
+	margin:20px 0 18px 164px;
+}
+
+div#global div#footer {
+	color:#fff;
+	text-align:center;
+	margin:10px 0 10px 0;
+	padding:0;
+}
+
+div#global div#footer a {
+	color:#fff;
+	text-decoration:none;
+}
+.clear{
+    clear: both;
+}
+#footer ul li{
+    display: inline;
+}
+div#global div#container div#contenu div#page input[type="submit"]{
+    margin-left: 206px;
+}
+.error{
+    color: #FF0000;
+    padding-left: 206px;
+    text-align: left;
+}
+.btn-login
+{
+    background: url('../images/ok.png') no-repeat center center transparent;
+    border: medium none;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+}
+.logo{
+    background: #FFFFFF;
+    float: left;
+    padding: 26px 0 0 20px;
+}
+.social_rx{
+    float: left;
+    background: #FFF;
+}
+.social_rx a {
+    display: block;
+    width: 72px;
+}
+#wrap-enchere{
+    float: left;
+}
+.liststyle{
+    width: 100%;
+}
+.liststyle  a, .liststyle td{
+    color: #636363;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+table th{
+    background: none repeat scroll 0 0 #DE6E28;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+table{
+    border-spacing: 0;
+    border-collapse:collapse;
+}
+.val_enchere span{
+    display: block;
+}
+.val_enchere .btn_achatenchere{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+.liststyle .val_enchere{
+    width: 120px;
+}
+

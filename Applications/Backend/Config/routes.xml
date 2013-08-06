@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Routes.xml
+    Created on : 8 avril 2012, 10:38
+    Author     : FFOZEU
+    Description:
+        Purpose of the document follows.
+-->
+
+<routes xmlns:xi="http://www.w3.org/2001/XInclude">
+    <route url="/admin/" module="Statistiques" action="globalView"/>
+
+     <!-- import route du module BgManager -->
+    <xi:include href="../../Modules/BgManager/Config/BBgManagerRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BBgManagerRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <!-- import route du module Categorie -->
+    <xi:include href="../../Modules/Categories/Config/BCategoriesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BCategoriesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+
+     <xi:include href="../../Modules/Utilisateurs/Config/BUtilisateursRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BUtilisateursRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <!-- import route du module Adversiting -->
+    <xi:include href="../../Modules/Adversiting/Config/BAdversitingRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BAdversitingRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+	
+    <!-- import route du module Newsletters -->
+    <xi:include href="../../Modules/NewsLetter/Config/BNewsLetterRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BNewsLetterRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+
+    <!-- import route du module Members -->
+    <xi:include href="../../Modules/Members/Config/BMembersRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BMembersRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+
+    <!-- import route du module ModuleCreator -->
+    <xi:include href="../../Modules/ModuleCreator/Config/BModuleCreatorRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BModuleCreatorRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    <!-- import route du module Priorite -->
+    <xi:include href="../../Modules/Priorite/Config/BPrioriteRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BPrioriteRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+
+    <!-- import route du module Typeannonces -->
+    <xi:include href="../../Modules/Typeannonces/Config/BTypeannoncesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BTypeannoncesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <!-- import route du module Typeannonces -->
+    <xi:include href="../../Modules/Hook/Config/BHookRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BHookRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+
+    <!-- import route du module configuration -->
+    <xi:include href="../../Modules/Configurations/Config/BConfigurationRoute.xml">
+        <xi:fallback>
+        <error>xinclude: BConfigurationRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/PaiementMod/Config/BPaiementModRoute.xml">
+        <xi:fallback>
+        <error>xinclude: PaiementMod.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/Annonce/Config/BAnnonceRoute.xml">
+        <xi:fallback>
+        <error>xinclude: Annonce.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/TranchesHoraires/Config/BTranchesHorairesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BTranchesHorairesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/PackCredits/Config/BPackCreditsRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BPackCreditsRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/Partenaires/Config/BPartenairesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BPartenairesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/GestionAbus/Config/BGestionAbusRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BGestionAbusRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/ConfigSMTP/Config/BConfigSMTPRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BConfigSMTPRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/CompteurVisites/Config/BCompteurVisitesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BCompteurVisitesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="../../Modules/PaiementCredits/Config/BPaiementCreditsRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BPaiementCreditsRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+     <xi:include href="../../Modules/Statistiques/Config/BStatistiquesRoute.xml#xpointer(/routes/*)">
+        <xi:fallback>
+        <error>xinclude: BStatistiquesRoute.xml n\'a pas été trouvé</error>
+        </xi:fallback>
+    </xi:include>
+    
+</routes>

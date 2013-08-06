@@ -1,0 +1,10 @@
+
+<!--
+Routes backend du module possible du module 
+-->
+<routes>
+    <route url="/admin/configurations.html" module="Configurations" action="configurationscreate"/>
+    <route url="/admin/coutimage.html" module="Configurations" action="configurationsimages"/>
+    
+    <route url="/admin/Annoncesdefaultimage.html" module="Configurations" action="defaultImages" />
+</routes>

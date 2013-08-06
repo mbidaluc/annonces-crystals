@@ -1,0 +1,25 @@
+
+<routes>
+     <route url="/admin/annonce.html" module="Annonce" action="annonce"/>
+     <route url="/admin/annonce-add.html" module="Annonce" action="annoncecreate"/>
+     <route url="/admin/annoncesactives.html" module="Annonce" action="annonceactives"/>
+     <route url="/admin/annoncesexpires.html" module="Annonce" action="annonceexpires"/>
+     <route url="/admin/annoncesnonactives.html" module="Annonce" action="annoncenonactives"/>
+     <route url="/admin/annonce-delete-([0-9]+)\.html" module="Annonce" action="delete" vars="id"/>
+     <route url="/admin/annonce-activate-([0-9]+)\.html" module="Annonce" action="activateannonce" vars="id"/>
+     <route url="/admin/annonce-desactivate-([0-9]+)\.html" module="Annonce" action="desactivateannonce" vars="id"/>
+     
+     <route url="/admin/annonce-details-([0-9]+)\.html" module="Annonce" action="details" vars="id"/>
+     
+     <route url="/admin/positions.html" module="Annonce" action="positions"/>
+     <route url="/admin/uploadfile.html" module="Annonce" action="fileupload" vars="id"/>
+     <route url="/admin/updateimage.html" module="Annonce" action="UpdateImage" />
+     <route url="/admin/uploadfileupdate.html" module="Annonce" action="fileuploadUpdate" />
+     <route url="/admin/deletephoto.html" module="Annonce" action="deleteImage" />
+     <route url="/admin/annonce-edit-([0-9]+)\.html" module="Annonce" action="editAnnonce" vars="id"/>
+     <route url="/admin/actiongrouped.html" module="Annonce" action="results" />
+     
+      <route url="/admin/subcatan.html" module="Annonce" action="subCategorie" />
+      <route url="/admin/validateannonce.html" module="Annonce" action="ValidationAnnonce" />
+</routes>
+                        

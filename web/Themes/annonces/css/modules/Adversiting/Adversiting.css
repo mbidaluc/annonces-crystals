@@ -1,0 +1,131 @@
+/* 
+    Document   : Adversiting
+    Created on : 14 mars 2013, 16:09:58
+    Author     : DANIOU
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#center-page {
+    border: none;
+    
+}
+#center-page #content-page {
+   /* border:none;*/
+    border-radius: 5px 5px 5px 5px;
+   /* margin-top: 4.8%;*/
+    overflow: auto;
+    /*height: 695px;*/
+}
+#center-page #content-page form {
+    margin: 5% 2% 1%;
+    width: 65%;
+    float: left;
+}
+#center-page #content-page form label {
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 27%;
+}
+#center-page #content-page form p {
+    margin: 4% auto 3% 1%;
+    width: 99%;
+}
+#center-page #content-page form p select, input[type="text"]{
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 55%;
+}
+#center-page #content-page form p select{
+    width: 55.5%;
+}
+#center-page #content-page form p #id_imageFile{
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 57%;
+    margin-left: 2%;
+}
+/**button submit***/
+#center-page #content-page form p .left-bouton {
+    background: url("../../../images/left_bouton.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 23px;
+    padding-left: 2px;
+    width: 28%;
+    margin: auto auto auto 42%;
+}
+#center-page #content-page form p .right-bouton{
+    background: url("../../../images/right_bouton.png") no-repeat scroll right top transparent;
+    display: inline-block;
+    height: 23px;
+    padding-right: 2px;
+    width: 97%;
+}
+#center-page #content-page form p .envoyer{
+    background: url("../../../images/center_bouton.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    height: 23px;
+    width: 100%;   
+}
+
+#center-page #content-page #zonePrix{
+   color: #D80074;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 32%;
+    width: 30%;
+}
+/****************gestion des détails de banniere du client******/
+#content-page .desc_annonce .details {    
+    padding-top: 5%;
+    width: 78%;
+}
+#content-page #listing_annonce .block_desc .desc_annonce{
+    color: #535353;
+    float: right;
+    font-size: 13px;
+    margin-right: 1%;
+    width: 60.5%;
+}
+.wrap_price, .wrap_date1 {
+    color: #009EDB;
+}
+.item-elt .see_more1 {
+    background: url("../../../images/see_more.jpg") no-repeat scroll left center transparent;
+    color: #85B801;
+    font-size: 12px;
+    padding-left: 11px;
+     margin-left: 10%;
+}
+#content-page ul .details .wrap_date1 .red {
+    color: #E2001A;
+    font-weight: bold;
+}
+#content-page ul .desc_annonce .details .delet img {
+   /* margin-left: 20%;*/
+   vertical-align: middle;
+}
+#content-page ul .desc_annonce .details .delet{
+   display: inline-block;
+   margin-left: 10%;
+}
+.block_desc .desc_annonce .wrap_price {
+     float: none;
+    display: block;
+    font-size: 14px;
+    margin: 1.8% auto;
+}
+
+/*#conditionss label{
+    width: 66%;
+}*/

@@ -1,0 +1,6 @@
+
+<routes>
+    <route url="/admin/trancheshoraires.html" module="TranchesHoraires" action="tranchesHoraires"/>
+    <route url="/admin/admintrancheshoraires.html" module="TranchesHoraires" action="tranchesHoraires"/>
+</routes>
+                        

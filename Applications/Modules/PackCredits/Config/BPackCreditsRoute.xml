@@ -1,0 +1,8 @@
+
+<routes>
+    <route url="/admin/packs.html" module="PackCredits" action="packCredits"/>
+    <route url="/admin/packs-add.html" module="PackCredits" action="packCreditscreate"/>
+    <route url="/admin/packs-edit-([0-9]+)\.html" module="PackCredits" action="packCreditscreate" vars="id"/>
+    <route url="/admin/packs-delete-([0-9]+)\.html" module="PackCredits" action="delete" vars="id"/>
+</routes>
+                        

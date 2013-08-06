@@ -1,0 +1,25 @@
+<routes>
+    <route url="/createannoncefront.html" module="Annonce" action="createannonce"/>
+    <route url="/annoncefront-edit-([0-9]+)\.html" module="Annonce" action="createannonce" vars="id"/>
+    <route url="/positions.html" module="Annonce" action="positions"/>
+    <route url="/uploadfile.html" module="Annonce" action="fileupload" vars="id"/>
+    <route url="/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)\.html" module="Annonce" action="show" vars="link_rewrite_cat,link_rewrite"/>
+    
+     <route url="/mesannonces.html" module="Annonce" action="mesannonces"/>
+     
+     <route url="/mesannonces-delete-([0-9]+).html" module="Annonce" action="delete" vars="id"/>
+     <route url="/mesannonce-desactivate-([0-9]+)\.html" module="Annonce" action="desactivateannonce" vars="id"/>
+     <route url="/mesannonces-edit-([0-9]+)\.html" module="Annonce" action="editAnnonce" vars="id"/>
+     <route url="/deletephoto.html" module="Annonce" action="deleteImage" />
+     
+     <route url="/updateimage.html" module="Annonce" action="UpdateImage" />
+     <route url="/uploadfileupdate.html" module="Annonce" action="fileuploadUpdate" />
+     
+     <route url="/repannonce.html" module="Annonce" action="repAnnonce" />
+     <route url="/envannoceamie.html" module="Annonce" action="envAnnonceAmi" />
+     <route url="/les-annonces.html" module="Annonce" action="listAnnonces" />
+     <route url="/authorannonces-([0-9]+)\.html" module="Annonce" action="authorListAnnonces" vars="id"/>
+	 
+	 <route url="/subcatan.html" module="Annonce" action="subCategorie" />
+     <route url="/mesannoncesexpirees.html" module="Annonce" action="mesAnnoncesExpirees" />
+</routes>                        

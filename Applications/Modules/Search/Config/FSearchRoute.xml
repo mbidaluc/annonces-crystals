@@ -1,0 +1,4 @@
+<routes>
+    <route url="/search.html" module="Search" action="search"/>
+    <route url="/results.html" module="Search" action="results"/>
+</routes>                     

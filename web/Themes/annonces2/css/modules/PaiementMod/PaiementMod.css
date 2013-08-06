@@ -1,0 +1,71 @@
+/* 
+    Document   : PaiementAPI
+    Created on : 14 févr. 2013, 10:29:09
+    Author     : ffozeu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+*{
+    font-size: 12px;
+    font-family: verdana,arial;
+}
+.table{
+
+}
+.table p{
+    font-size: 14px;
+    font-family: verdana,arial; 
+    color: #434343;
+    font-style: italic;
+    margin: 1em;
+}
+.table .paiement{
+    border-bottom: 1px dashed #434343;
+}
+.table .last{border-bottom: none;}
+.table .paiement a{
+    display: block;
+    margin: 1em;
+    text-decoration: none;
+}
+.table .paiement a img{
+    vertical-align: middle;
+    margin-right: 1em;
+}
+.table .paiement a span{
+    font-size: 14px;
+    color: #434343;
+}
+
+/******pop up paiement*******/
+.fancybox-inner #ModalFormPaiement form label {
+    color: #626262;
+    display: inline-block;
+    font-size: 12px;
+    width: 33%;
+}
+.fancybox-inner #ModalFormPaiement form p {
+    margin: 1.5% auto;
+}
+ .fancybox-inner form p input {
+    background: none repeat scroll 0 0 #F3FBF5;
+    border: 1px solid #C1BFBF;
+    width: 50%;
+}
+ .fancybox-inner #ModalFormPaiement form p .envoie1 {
+    background: url("../../../images/bg_forn_submit.png") no-repeat scroll center bottom transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    height: 1.9em;
+    margin: auto auto auto 45%;
+    text-align: center;
+    width: 11em;
+}
+

@@ -1,0 +1,8 @@
+
+<routes>
+    <route url="/admin/listmodepaiement.html" module="PaiementMod" action="paiementMod"></route>
+    <route url="/admin/modepaiement-edit-([0-9]+)\.html" module="PaiementMod" action="paiementModcreate" vars="id"/>
+    <route url="/admin/modepaiement-edit.html" module="PaiementMod" action="paiementModcreate"></route>
+    <route url="/admin/modepaiement-delete-([0-9]+)\.html" module="PaiementMod" action="delete" vars="id"/>
+</routes>
+                        

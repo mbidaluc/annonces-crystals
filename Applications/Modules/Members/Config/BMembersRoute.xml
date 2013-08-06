@@ -1,0 +1,7 @@
+
+<routes>
+    <route url="/admin/membres-delete-([0-9]+)\.html" module="Members" action="delete" vars="id"/>
+    <route url="/admin/membres.html" module="Members" action="members"/>
+    <route url="/admin/categories-list-([0-9]+)\.html" module="Members" action="mescategories" vars="id"/>
+</routes>
+                        

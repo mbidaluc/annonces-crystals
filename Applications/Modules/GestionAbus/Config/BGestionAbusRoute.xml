@@ -1,0 +1,7 @@
+
+<routes>
+    <route url="/admin/listabus.html" module="GestionAbus" action="listAbus" />
+    <route url="/admin/listannonce.html" module="GestionAbus" action="listAnnonce" />
+    <route url="/admin/abus.html" module="GestionAbus" action="gestionAbus" />
+</routes>
+                        

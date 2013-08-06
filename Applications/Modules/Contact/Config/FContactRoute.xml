@@ -1,0 +1,4 @@
+
+<routes>
+    <route url="/contact.html" module="Contact" action="contact" />
+</routes>

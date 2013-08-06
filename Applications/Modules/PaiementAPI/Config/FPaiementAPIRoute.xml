@@ -1,0 +1,9 @@
+
+<routes>
+    <route url="/paiementfront-edit-([0-9]+)\.html" module="PaiementAPI" action="paiementAPI" vars="id"/>
+    <route url="/paiementfront-([0-9]+)\.html" module="PaiementAPI" action="paiementAPI" vars="idModpaiement"/>
+    <route url="/paiementfrontpub-([0-9]+)\.html" module="PaiementAPI" action="paiementAPIpub" vars="idModpaiement"/>
+    <route url="/paiementfront.html" module="PaiementAPI" action="paiementAPI"/>
+    <route url="/paiementfrontpub.html" module="PaiementAPI" action="paiementAPIpub"/>
+</routes>
+                        

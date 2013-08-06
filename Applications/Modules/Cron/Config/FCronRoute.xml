@@ -1,0 +1,5 @@
+
+<routes>
+     <route url="/cron.html" module="Annonce" action="cron" />
+</routes>
+                        
